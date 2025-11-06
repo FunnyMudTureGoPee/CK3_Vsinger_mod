@@ -1,0 +1,48 @@
+﻿anime = {
+	anime_male = {
+		sex = male
+		minimum_age = 18
+		head = "head_basic_entity_male"
+		torso = "male_body_entity"
+	}
+
+	anime_female = {
+		sex = female
+		minimum_age = 18
+		head = "head_basic_entity_male"
+		torso = "male_body_entity"
+	}
+
+	anime_boy = {
+		sex = male
+		maximum_age = 18
+		head = "head_basic_entity_male"
+		torso = "male_body_entity"
+	}
+
+	anime_girl = {
+		sex = female
+		maximum_age = 18
+		head = "head_basic_entity_male"
+		torso = "male_body_entity"
+	}
+	# must keep this otherwise without an anchor
+	# all 2D characters got stuck in the middle of royal court
+	attach = {
+		what = head
+		where = torso
+	
+		joint_attachment = { 
+			parent_joint = "bn_sp_thoracic" 
+			child_joint = "head_root" 
+		}
+		joint_attachment = { 
+			parent_joint = "bn_l_clavicle" 
+			child_joint = "bn_h_l_clavicle" 
+		}
+		joint_attachment = { 
+			parent_joint = "bn_r_clavicle" 
+			child_joint = "bn_h_r_clavicle" 
+		}
+	}
+}

@@ -1,0 +1,8 @@
+﻿is_waifu_portrait = {
+	global = IS_WAIFU_PORTRAIT
+	global_not = IS_NOT_WAIFU_PORTRAIT
+	first = I_AM_WAIFU_PORTRAIT
+	first_not = I_AM_NOT_WAIFU_PORTRAIT
+	third = CHARACTER_IS_WAIFU_PORTRAIT
+	third_not = CHARACTER_IS_NOT_WAIFU_PORTRAIT
+}

@@ -1,0 +1,6 @@
+﻿widget = {
+    name = "anime_trayer_top"
+	size = { 100% 100% }
+	layer = top
+    anime_core_check = {}
+}

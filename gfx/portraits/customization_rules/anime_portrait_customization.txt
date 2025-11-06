@@ -1,0 +1,7 @@
+﻿anime = {
+	# no use, but make things clearer
+	gene_groups = {
+		hm_portrait_group = anime_morph_genes
+		anime_portrait_group = anime_portrait_group
+	}
+}

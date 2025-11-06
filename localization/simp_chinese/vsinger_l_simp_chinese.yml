@@ -1,0 +1,16 @@
+﻿l_simp_chinese:
+ trait_vsinger_miku_desc:0 "这个角色是初音未来。"
+ trait_vsinger_miku_character_desc:0 "初音未来"
+ trait_vsinger_luka_desc:0 "这个角色是巡音流歌。"
+ trait_vsinger_luka_character_desc:0 "巡音流歌"
+
+ vsinger_nation_maid:0 "虚拟歌姬"
+ trait_vsinger_miku:0 "初音未来"
+ trait_vsinger_luka:0 "巡音流歌"
+
+ trait_vsinger_luka_test:0 "test"
+ trait_vsinger_luka_test_desc:0 "This character is test."
+ trait_vsinger_luka_test_character_desc:0 "test"
+ trait_vsinger_miku_test:0 "test"
+ trait_vsinger_miku_test_desc:0 "This character is test."
+ trait_vsinger_miku_test_character_desc:0 "test"

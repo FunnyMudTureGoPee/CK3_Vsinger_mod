@@ -1,0 +1,33 @@
+# Vsinger 角色出生继承处理
+vsinger_on_birth_child = {
+    # 如果已经有特定绑定，跳过
+    if = {
+        limit = { specific_waifu_portrait_trigger = yes }
+    }
+    else = {
+        # 检查父母是否都是 anime_ethnicity
+        if = {
+            limit = {
+                AND = {
+                    scope:father = { use_anime_ethnicity = yes }
+                    scope:mother = { use_anime_ethnicity = yes }
+                }
+            }
+            # 双亲都是纸片人，使用保守策略
+            set_muggle_ethnicity = yes
+        }
+        else = {
+            # 一方是纸片人一方不是，继承非纸片人那方
+            if = {
+                limit = { scope:father = { NOT = { use_anime_ethnicity = yes } } }
+                # 继承父亲（非纸片人）的外观
+                copy_portrait_genes = { target = scope:father }
+            }
+            else_if = {
+                limit = { scope:mother = { NOT = { use_anime_ethnicity = yes } } }
+                # 继承母亲（非纸片人）的外观
+                copy_portrait_genes = { target = scope:mother }
+            }
+        }
+    }
+}

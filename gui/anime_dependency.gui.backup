@@ -1,0 +1,26 @@
+﻿types modchecks{
+    type waifu_modcheck = vbox{
+        layer = debug
+		parentanchor = top
+
+        anime_core_check = {}
+        # hunjian_check = {}
+    }
+	type anime_core_check = widget {
+		parentanchor = top
+		scale = "[ScaleToFitElementInside('(int32)1920', '(int32)1080')]"
+		visible = "[GetScriptedGui('lack_anime_core').IsShown(GuiScope.End)]"
+		vbox = {
+            text_multi = {
+                layoutpolicy_horizontal = expanding
+                fontsize = 50
+                raw_text = "#R LACK ANIME CORE #!"
+            }
+            text_multi = {
+                layoutpolicy_horizontal = expanding
+                fontsize = 50
+                raw_text = "#G https://steamcommunity.com/sharedfiles/filedetails/?id=2975613539 #!"
+            }
+        }
+	}
+}

@@ -1,0 +1,116 @@
+﻿# number of portraits of a character
+portrait_max = {
+	# wsgl has override some portrait
+	if = {
+		limit = {
+			wsgl_portrait_trigger = yes
+		}
+		value = wsgl_max_portrait
+	}
+	# place other overriding portrait groups here
+
+	else_if = {
+		limit = {
+			warshipgirl_trigger = yes
+		}
+		value = wsg_max_portrait
+	}
+	else_if = {
+		limit = {
+			is_kansen_trigger = yes
+		}
+		value = al_max_portrait
+	}
+	else_if = {
+		limit = {
+			is_tactics_dolls_trigger = yes
+		}
+		value = gf_max_portrait
+	}
+	else_if = {
+		limit = {
+			ba_portrait_trigger = yes
+		}
+		value = ba_max_portrait
+	}
+	else_if = {
+		limit = {
+			hm_misc_waifu_trigger = yes
+		}
+		value = hm_misc_max_portrait
+	}
+	else_if = {
+		limit = {
+			is_maid_portrait_trigger = yes
+		}
+		value = maid_max_portrait
+	}
+	else_if = {
+		limit = {
+			sarkaz_anime_trigger = yes
+		}
+		value = sarkaz_max_portrait
+	}
+	else_if = {
+		limit = {
+			ark_protrait_trigger = yes
+		}
+		value = ark_portrait_num
+	}
+	else_if = {
+		limit = {
+			is_uma_musume_trigger = yes
+		}
+		value = pd_max_portrait
+	}
+	else_if = {
+		limit = {
+			vtb_portrait_trigger = yes
+		}
+		value = vtuber_max_portrait
+	}
+	else_if = {
+		limit = {
+			nikke_portrait_trigger = yes
+		}
+		value = nikke_max_portrait
+	}
+	else_if = {
+		limit = {
+			dolls_trait_trigger = yes
+		}
+		value = ash_max_portrait
+	}
+	else_if = {
+		limit = {
+			kanmusu_trigger = yes
+		}
+		value = kanmusu_max_portrait
+	}
+
+	# add your values here
+	else_if = {
+		limit = {
+			vsinger_portrait_trigger = yes
+		}
+		value = vsinger_max_portrait
+	}
+	else = {
+		value = 0
+	}
+}
+# same, to suppress error log
+wsgl_max_portrait = 0
+wsg_max_portrait = 0
+al_max_portrait = 0
+gf_max_portrait = 0
+ba_max_portrait = 0
+maid_max_portrait = 0
+hm_misc_max_portrait = 0
+ark_portrait_num = 0
+sarkaz_max_portrait = 0
+pd_max_portrait = 0
+vtuber_max_portrait = 0
+nikke_max_portrait = 0
+ash_max_portrait = 0
+kanmusu_max_portrait = 0

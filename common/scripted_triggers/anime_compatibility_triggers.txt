@@ -1,0 +1,6 @@
+﻿HJCL_triggers_01 = {
+	# anime characters usually have wide portrait
+	# and should not be overlapped with other characters
+	waifu_portrait_trigger = no
+	scope:SECONDARY ?= { waifu_portrait_trigger = no }
+}

@@ -1,0 +1,5 @@
+﻿waifu = {
+	texture = "gfx/interface/icons/icon_group_of_characters.dds"
+	alias = { waifus waifu_possessive waifus_possessive }
+	parent = character
+}

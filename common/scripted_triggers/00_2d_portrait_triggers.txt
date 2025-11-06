@@ -1,0 +1,150 @@
+﻿# 满足这个trigger的角色会禁用原版模型
+# block Vanilla models if this trigger is true (on character!)
+waifu_portrait_trigger = {
+	# 为了兼容性考虑，建议在工坊评论区贴出你的trigger
+	# Better if you paste it to workshop and I'll add it.
+	# For better compatibility.
+	# One entery per mod, or split by content.
+	custom_description = {
+		text = is_waifu_portrait
+		# 为了避免错误，下方所有引用的trigger都应该在 000_2d_portraits_placeholder_triggers.txt 注册
+		# to supress error, all triggers below should have placeholder in 000_2d_portraits_placeholder_triggers.txt
+		OR = {
+			specific_waifu_portrait_trigger = yes
+			HSR_generic_portrait_trigger = yes
+		}
+	}
+}
+specific_waifu_portrait_trigger = {
+	OR = {
+		# HMI, sorted by time
+		warshipgirl_trigger = yes
+		clover_project_trigger = yes
+		deepsea_trigger = yes
+		hm_misc_waifu_trigger = yes
+		# other Somnia mods, sorted by time
+		is_kansen_trigger = yes
+		is_tactics_dolls_trigger = yes
+		is_maid_portrait_trigger = yes
+		ark_protrait_trigger = yes
+		sarkaz_anime_trigger = yes
+		ba_portrait_trigger = yes
+		dolls_trait_trigger = yes
+		is_uma_musume_trigger = yes
+		is_sdsk_band_girls = yes
+		# other authers, sorted by time
+		hgw_protrait_trigger = yes
+		ak3_protrait_trigger = yes
+		is_c_dolls_trait_trigger = yes
+		suzuran_trait_trigger = yes
+		sve_follower_trait_trigger = yes
+		kanmusu_trigger = yes
+		MyGO_Ave_Mujica_character_trigger = yes
+		Frieren_trigger = yes
+		vtb_portrait_trigger = yes
+		MyGO_trigger = yes
+		nikke_portrait_trigger = yes
+		HSR_is_Honkai_Starrail_character = yes
+		# add your triggers here.
+		is_vsinger_portrait_trigger = yes
+	}
+}
+# temporary, since we don't have has_ethnicity.
+# subset of waifu_portrait_trigger
+use_anime_ethnicity = {
+	OR = {
+		# HMI, sorted by time
+		warshipgirl_trigger = yes
+		clover_project_trigger = yes
+		deepsea_trigger = yes
+		hm_misc_waifu_trigger = yes
+		# other Somnia mods, sorted by time
+		is_kansen_trigger = yes
+		is_tactics_dolls_trigger = yes
+		is_maid_portrait_trigger = yes
+		ark_protrait_trigger = yes
+		sarkaz_anime_trigger = yes
+		ba_portrait_trigger = yes
+		is_uma_musume_trigger = yes
+		# other authers, sorted by time
+		hgw_protrait_trigger = yes
+		is_c_dolls_trait_trigger = yes
+		suzuran_trait_trigger = yes
+		sve_follower_trait_trigger = yes
+		kanmusu_trigger = yes
+		MyGO_trigger = yes
+		nikke_portrait_trigger = yes
+		HSR_is_Honkai_Starrail_character = yes
+		HSR_generic_portrait_trigger = yes
+		# add your triggers here.
+		is_vsinger_portrait_trigger = yes
+
+		anime_core_lib_dummy_trigger = yes # this trigger is used for local mod debugging. DONT use it for any mod published
+	}
+}
+# grabing random character with same culture for copying portrait.
+# subset of use_anime_ethnicity
+# it's an example, you can use your own wheel
+use_dummy_portrait_inheritance = {
+	OR = {
+		warshipgirl_trigger = yes
+		clover_project_trigger = yes
+		deepsea_trigger = yes
+		hm_misc_waifu_trigger = yes
+		is_uma_musume_trigger = yes
+		# other Somnia mods, sorted by time
+		is_kansen_trigger = yes
+		is_tactics_dolls_trigger = yes
+		is_maid_portrait_trigger = yes
+		ark_protrait_trigger = yes
+		ba_portrait_trigger = yes
+		is_uma_musume_trigger = yes
+		nikke_portrait_trigger = yes
+	}
+}
+
+# 是否可以被当前玩家修改换装
+# If this character's portrait can be changed by current player
+# scope:player from GUI
+can_change_clothes_by_player_trigger = {
+	OR = {
+		has_game_rule = portrait_transfer_target_all
+		AND = {
+			has_game_rule = portrait_transfer_target_onlyme
+			OR = {
+				ROOT = scope:player
+				is_courtier_of = scope:player
+				is_vassal_or_below_of = scope:player
+			}
+		}
+	}
+}
+
+# block normal portrait for override.
+normal_portrait_blocked_trigger = {
+	OR = {
+		exists = var:block_normal_portrait
+		wsgl_portrait_trigger = yes
+	}
+}
+
+# 因为直播模式只在显示相关的地方生效
+# 如果你的MOD涉及不适当的内容又不完全只和肖像有关（如涉及音频或多皮肤机制）
+# 需要独立的互动（或决议）安全模式开关
+# 如下例
+# Vanilla safe mode doesn't work in some place
+# set flag as following is advised:
+#
+# exists = global_var:safety_mode_on
+
+anime_core_loaded = {
+	always = yes
+}
+
+show_default_portrait = {
+	OR = {
+		NOT = { exists = var:portrait_index }
+		var:portrait_index <= 0
+		var:portrait_index > portrait_max
+	}
+}

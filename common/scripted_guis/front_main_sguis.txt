@@ -1,0 +1,8 @@
+﻿lack_anime_core = {
+	scope = none
+	# NOT = yes means if the trigger not exists, it will return false.
+	# 这种写法在条件不存在的时候会正确地返回False.
+	is_shown = {
+		NOT = { anime_core_loaded = yes }
+	}
+}

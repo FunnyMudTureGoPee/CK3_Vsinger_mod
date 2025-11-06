@@ -1,0 +1,3 @@
+﻿# place all in trayer
+# so no error if player is not a character
+gui/anime_trayer.gui = anime_trayer_top

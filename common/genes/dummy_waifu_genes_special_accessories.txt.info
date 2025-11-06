@@ -1,0 +1,19 @@
+﻿special_genes = {
+	accessory_genes = {
+		portrait_group = anime
+		# index range 1byte
+		# so you must split to multiple gene if more than 255 portrait
+		# reserved 0 on purpose
+		dummy_waifu_group_1 = {
+			group = anime_portrait_group
+			dummy_waifu_1 = {
+				index = 1
+				anime_male = { 1 = dummy_waifu_1 }
+				anime_female = anime_male
+				anime_boy = anime_male
+				anime_girl = anime_male
+			}
+			# dummy_waifu_2 ...
+		}
+	}
+}

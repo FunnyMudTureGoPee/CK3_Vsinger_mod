@@ -1,0 +1,7 @@
+﻿anime_ethnicity = {
+	portrait_group = anime
+	# no use, but make things clearer
+	anime_morph_genes = {
+		100 = { name = anime_no_morph_gene range = { 1 1 } }
+	}
+}

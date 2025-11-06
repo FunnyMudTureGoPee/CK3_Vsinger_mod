@@ -1,0 +1,64 @@
+﻿special_genes = {
+	accessory_genes = {
+		portrait_group = anime
+		vsinger_props_1 = {
+			group = anime_portrait_group
+			vsinger_luka_test_0 = {
+				index = 1
+				anime_male = { 1 = vsinger_luka_test_0 }
+				anime_female = anime_male
+				anime_boy = anime_male
+				anime_girl = anime_male
+			}
+			vsinger_luka_test_1 = {
+				index = 2
+				anime_male = { 1 = vsinger_luka_test_1 }
+				anime_female = anime_male
+				anime_boy = anime_male
+				anime_girl = anime_male
+			}
+			vsinger_luka_test_2 = {
+				index = 3
+				anime_male = { 1 = vsinger_luka_test_2 }
+				anime_female = anime_male
+				anime_boy = anime_male
+				anime_girl = anime_male
+			}
+			vsinger_luka_test_3 = {
+				index = 4
+				anime_male = { 1 = vsinger_luka_test_3 }
+				anime_female = anime_male
+				anime_boy = anime_male
+				anime_girl = anime_male
+			}
+			vsinger_miku_test_0 = {
+				index = 5
+				anime_male = { 1 = vsinger_miku_test_0 }
+				anime_female = anime_male
+				anime_boy = anime_male
+				anime_girl = anime_male
+			}
+			vsinger_miku_test_1 = {
+				index = 6
+				anime_male = { 1 = vsinger_miku_test_1 }
+				anime_female = anime_male
+				anime_boy = anime_male
+				anime_girl = anime_male
+			}
+			vsinger_miku_test_2 = {
+				index = 7
+				anime_male = { 1 = vsinger_miku_test_2 }
+				anime_female = anime_male
+				anime_boy = anime_male
+				anime_girl = anime_male
+			}
+			vsinger_miku_test_3 = {
+				index = 8
+				anime_male = { 1 = vsinger_miku_test_3 }
+				anime_female = anime_male
+				anime_boy = anime_male
+				anime_girl = anime_male
+			}
+		}
+	}
+}

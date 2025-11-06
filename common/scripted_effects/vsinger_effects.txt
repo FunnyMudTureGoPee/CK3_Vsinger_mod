@@ -1,0 +1,30 @@
+vsinger_spawn_miku = {
+    create_character = {
+        template = vsinger_miku_template
+        employer = ROOT
+        save_scope_as = invited_character
+    }
+    scope:invited_character = {
+        set_ethnicity = anime_ethnicity
+        set_variable = {
+            name = portrait_index
+            value = 0
+        }
+    }
+}
+
+vsinger_spawn_luka = {
+    create_character = {
+        template = vsinger_luka_template
+        employer = ROOT
+        save_scope_as = invited_character
+    }
+    scope:invited_character = {
+        set_ethnicity = anime_ethnicity
+        add_trait = vsinger_luka_test
+        set_variable = {
+            name = portrait_index
+            value = 0
+        }
+    }
+}

@@ -1,0 +1,7 @@
+vsinger_base = {
+    is_good = yes
+    group = special
+    genetic = no
+    random_creation = 0
+    desc = trait_vsinger_base_desc
+}

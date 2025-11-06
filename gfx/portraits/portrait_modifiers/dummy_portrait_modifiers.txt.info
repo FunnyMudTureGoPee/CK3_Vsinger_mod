@@ -1,0 +1,46 @@
+﻿# 所有键值都不能重复！
+# every key should be unique!
+dummy_waifu_group = {
+	portrait_group = anime
+	dummy_waifu_1 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = dummy_waifu_group_1
+				template = dummy_waifu_1
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				# DONT change this unless you really need override particular character.
+				add = 200
+
+				# here is just a dummy
+				# write your trigger for test
+				anime_core_lib_dummy_trigger = yes
+
+				# 通常使用特质标志纸片人，但你也可以开发自己的机制
+				# 不过不要让一个角色身上有多个纸片人立绘
+				# we usually use trait as flag for waifu, but you can have you way
+				# just don't make multiple 2d portrait on same character lol
+				#has_trait = blabla
+
+				# 如果你希望使用换装系统，使用以下代码
+				# dummy_portrait_index是你需要为这个角色计算的脚本量（script value），值为最大换装数
+				# 以下是第一个换装的样例
+				# if you want your waifu have multiple skins
+				# dummy_portrait_index is your script value about how many skins the character has
+				# sample for first skin
+
+				# show_default_portrait = yes
+
+				# 以下是第二张皮肤的样例
+				# sample for second skin
+
+				# var:portrait_index ?= 1
+			}
+		}
+	}
+}

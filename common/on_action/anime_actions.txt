@@ -1,0 +1,58 @@
+﻿on_game_start = {
+	on_actions = {
+		anime_startup_action
+	}
+}
+anime_startup_action = {
+	effect = {
+		set_global_variable = anime_core_loaded
+	}
+}
+on_birth_child = {
+	on_actions = {
+		anime_on_birth_child
+	}
+}
+# use effect for force serialize
+anime_on_birth_child = {
+	trigger = {
+		OR = {
+			hunjian_on_birth_set_portrait_trigger = yes
+			scope:mother ?= { use_anime_ethnicity = yes }
+			scope:real_father ?= { use_anime_ethnicity = yes }
+		}
+	}
+	effect = {
+		anime_on_birth_child_create_dummy_parent = yes
+		anime_on_birth_child_specific_portrait = yes
+		anime_on_birth_child_fallback_portrait = yes
+	}
+	on_actions = {
+		anime_restore_portrait
+		delay = { days = 5 }
+		anime_restore_portrait
+		delay = { days = 1 }
+		anime_restore_portrait
+	}
+}
+anime_restore_portrait = {
+	effect = {
+		recursive_build_fix_portrait = yes
+	}
+}
+# used in inheritance processing
+# yuri_on_birth_child = {}
+
+on_ruler_designer_finished = {
+	on_actions = {
+		anime_on_ruler_designer_finished
+	}
+}
+anime_on_ruler_designer_finished = {
+	trigger = {
+		use_anime_ethnicity = yes
+	}
+	effect = {
+		set_ethnicity = anime_ethnicity
+	}
+}

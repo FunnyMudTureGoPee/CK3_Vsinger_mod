@@ -1,0 +1,43 @@
+﻿widget = {
+    name = "anime_trayer_hud_layer"
+	size = { 1% 1% }
+	layer = hud_layer
+	anime_check = {}
+}
+
+types jomini_command {
+    type anime_check = widget {
+	    size = { 1% 1% }
+        parentanchor = top|left
+        position = { -1000 -1000 }
+
+        datacontext = "[GetScriptedGui( 'anime_force_check' )]"
+        visible = "[ScriptedGui.IsValid( GuiScope.End )]"
+
+        fixedgridbox = {
+            addcolumn = 350
+            addrow = 70
+            datamodel_wrap = 1
+            maxhorizontalslots = 1
+            datamodel = "[GetGlobalList('anime_force_check')]"
+            item = {
+                portrait_head_small = {
+                    datacontext = "[Scope.GetCharacter]"
+                }
+            }
+        }
+
+        state = {
+            name = _show
+            trigger_on_create = yes
+            duration = 0.02
+            on_finish = "[ScriptedGui.Execute( GuiScope.End )]"
+        }
+        #state = {
+        #    name = "daily_tick"
+        #    trigger_on_create = yes
+        #    duration = 0.2
+        #    on_finish = "[GetScriptedGui( 'anime_force_check_repeat' ).Execute( GuiScope.End )]"
+        #}
+    }
+}

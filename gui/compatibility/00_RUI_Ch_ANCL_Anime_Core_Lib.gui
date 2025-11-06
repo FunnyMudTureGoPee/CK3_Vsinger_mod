@@ -1,0 +1,20 @@
+﻿# MOD名 / MOD Name .......... 二向箔核心库 / Anime Core Lib
+# 互換性ID / Comp ID ........ *ANCL
+# 作成者 / Author ........... Saltfish
+# Workshop ID ............... 2975613539
+# 対応日付 / Support Date ... 2025/4/10
+
+types CharacterWindow {
+    type RUI_Ch_ANCL_type_01 = flowcontainer_waifu_portrait_transfer_widget {}
+}
+
+template RUI_Ch_ANCL_template_01 {
+    state = {
+        name = character_window_refresh
+        on_start = "[GetScriptedGui('anime_restore_portrait_sgui').Execute( GuiScope.SetRoot( CharacterWindow.GetCharacter.MakeScope ).End ) ]"
+    }
+    state = {
+        name = _show
+        on_start = "[GetScriptedGui('anime_restore_portrait_sgui').Execute( GuiScope.SetRoot( CharacterWindow.GetCharacter.MakeScope ).End ) ]"
+    }
+}

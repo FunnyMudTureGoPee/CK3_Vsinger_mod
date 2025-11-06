@@ -1,0 +1,91 @@
+﻿heterosexuality_chance = {
+	if = {
+		limit = { most_heterosexuality = yes }
+		value = default_heterosexuality_chance
+	}
+	else_if = {
+		limit = { equal_sexuality = yes }
+		value = 25
+	}
+	else_if = {
+		limit = { most_homosexuality = yes }
+		value = define:NCharacter|PERCENTAGE_HOMOSEXUAL #Swapping with homosexual
+	}
+	else_if = {
+		limit = { most_bisexuality = yes }
+		value = define:NCharacter|PERCENTAGE_BISEXUAL #Swapping with bisexual
+	}
+	else_if = {
+		limit = { most_asexuality = yes }
+		value = define:NCharacter|PERCENTAGE_ASEXUAL #Swapping with asexuality
+	}
+}
+
+homosexuality_chance = {
+	if = {
+		limit = { most_heterosexuality = yes }
+		value = define:NCharacter|PERCENTAGE_HOMOSEXUAL
+	}
+	else_if = {
+		limit = { equal_sexuality = yes }
+		value = 25
+	}
+	else_if = {
+		limit = { most_homosexuality = yes }
+		value = default_heterosexuality_chance #Swapped with heterosexuality
+	}
+	else_if = {
+		limit = { most_bisexuality = yes }
+		value = define:NCharacter|PERCENTAGE_HOMOSEXUAL
+	}
+	else_if = {
+		limit = { most_asexuality = yes }
+		value = define:NCharacter|PERCENTAGE_HOMOSEXUAL
+	}
+}
+
+bisexuality_chance = {
+	if = {
+		limit = { most_heterosexuality = yes }
+		value = define:NCharacter|PERCENTAGE_BISEXUAL
+	}
+	else_if = {
+		limit = { equal_sexuality = yes }
+		value = 25
+	}
+	else_if = {
+		limit = { most_homosexuality = yes }
+		value = define:NCharacter|PERCENTAGE_BISEXUAL
+	}
+	else_if = {
+		limit = { most_bisexuality = yes }
+		value = default_heterosexuality_chance #Swapped with heterosexuality
+	}
+	else_if = {
+		limit = { most_asexuality = yes }
+		value = define:NCharacter|PERCENTAGE_BISEXUAL
+	}
+}
+
+asexuality_chance = {
+	if = {
+		limit = { most_heterosexuality = yes }
+		value = define:NCharacter|PERCENTAGE_ASEXUAL
+	}
+	else_if = {
+		limit = { equal_sexuality = yes }
+		value = 25
+	}
+	else_if = {
+		limit = { most_homosexuality = yes }
+		value = define:NCharacter|PERCENTAGE_ASEXUAL
+	}
+	else_if = {
+		limit = { most_bisexuality = yes }
+		value = define:NCharacter|PERCENTAGE_ASEXUAL
+	}
+	else_if = {
+		limit = { most_asexuality = yes }
+		value = default_heterosexuality_chance #Swapped with heterosexuality
+	}
+}

@@ -1,0 +1,89 @@
+﻿on_set_relation_sexuality_effect = {
+	if = {
+		limit = {
+			on_set_relation_same_gender = yes
+		}
+		if = {
+			limit = {
+				attracted_to_same_gender_trigger = no
+			}
+			random_list = {
+				0 = {
+					modifier = {
+						add = homosexuality_chance
+					}
+					set_sexuality = homosexual
+				}
+				0 = {
+					modifier = {
+						add = bisexuality_chance
+					}
+					set_sexuality = bisexual
+				}
+			}
+		}
+		scope:target = {
+			if = {
+				limit = {
+					attracted_to_same_gender_trigger = no
+				}
+				random_list = {
+					0 = {
+						modifier = {
+							add = homosexuality_chance
+						}
+						set_sexuality = homosexual
+					}
+					0 = {
+						modifier = {
+							add = bisexuality_chance
+						}
+						set_sexuality = bisexual
+					}
+				}
+			}
+		}
+	}
+	else = {
+		if = {
+			limit = {
+				attracted_to_opposite_gender_trigger = no
+			}
+			random_list = {
+				0 = {
+					modifier = {
+						add = heterosexuality_chance
+					}
+					set_sexuality = heterosexual
+				}
+				0 = {
+					modifier = {
+						add = bisexuality_chance
+					}
+					set_sexuality = bisexual
+				}
+			}
+		}
+		scope:target = {
+			if = {
+				limit = {
+					attracted_to_opposite_gender_trigger = no
+				}
+				random_list = {
+					0 = {
+						modifier = {
+							add = heterosexuality_chance
+						}
+						set_sexuality = heterosexual
+					}
+					0 = {
+						modifier = {
+							add = bisexuality_chance
+						}
+						set_sexuality = bisexual
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,155 @@
+﻿vsinger_portrait = {
+	portrait_group = anime
+	vsinger_luka_test_0 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = vsinger_props_1
+				template = vsinger_luka_test_0
+				value = 1
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 200
+				has_trait = vsinger_luka_test
+				show_default_portrait = yes
+				normal_portrait_blocked_trigger = no
+			}
+		}
+	}
+	vsinger_luka_test_1 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = vsinger_props_1
+				template = vsinger_luka_test_1
+				value = 1
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 200
+				has_trait = vsinger_luka_test
+				var:portrait_index ?= 1
+				normal_portrait_blocked_trigger = no
+			}
+		}
+	}
+	vsinger_luka_test_2 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = vsinger_props_1
+				template = vsinger_luka_test_2
+				value = 1
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 200
+				has_trait = vsinger_luka_test
+				var:portrait_index ?= 2
+				normal_portrait_blocked_trigger = no
+			}
+		}
+	}
+	vsinger_luka_test_3 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = vsinger_props_1
+				template = vsinger_luka_test_3
+				value = 1
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 200
+				has_trait = vsinger_luka_test
+				var:portrait_index ?= 3
+				normal_portrait_blocked_trigger = no
+			}
+		}
+	}
+	vsinger_miku_test_0 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = vsinger_props_1
+				template = vsinger_miku_test_0
+				value = 1
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 200
+				has_trait = vsinger_miku_test
+				show_default_portrait = yes
+				normal_portrait_blocked_trigger = no
+			}
+		}
+	}
+	vsinger_miku_test_1 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = vsinger_props_1
+				template = vsinger_miku_test_1
+				value = 1
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 200
+				has_trait = vsinger_miku_test
+				var:portrait_index ?= 1
+				normal_portrait_blocked_trigger = no
+			}
+		}
+	}
+	vsinger_miku_test_2 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = vsinger_props_1
+				template = vsinger_miku_test_2
+				value = 1
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 200
+				has_trait = vsinger_miku_test
+				var:portrait_index ?= 2
+				normal_portrait_blocked_trigger = no
+			}
+		}
+	}
+	vsinger_miku_test_3 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = vsinger_props_1
+				template = vsinger_miku_test_3
+				value = 1
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 200
+				has_trait = vsinger_miku_test
+				var:portrait_index ?= 3
+				normal_portrait_blocked_trigger = no
+			}
+		}
+	}
+}

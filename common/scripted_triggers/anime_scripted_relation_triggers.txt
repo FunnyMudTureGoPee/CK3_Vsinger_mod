@@ -1,0 +1,13 @@
+﻿any_lover_equivalent_relation_exclude_marriage_with = {
+	OR = {
+		has_relation_lover = $CHARACTER$
+		has_relation_hunjian_or_shiyuezhe = { CHARACTER = $CHARACTER$ }
+		has_relation_personal_maid_or_master = { CHARACTER = $CHARACTER$ }
+	}
+}
+any_lover_equivalent_relation_with = {
+	OR = {
+		is_consort_of = $CHARACTER$
+		any_lover_equivalent_relation_exclude_marriage_with = { CHARACTER = $CHARACTER$ }
+	}
+}

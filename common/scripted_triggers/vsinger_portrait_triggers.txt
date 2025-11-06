@@ -1,0 +1,16 @@
+﻿vsinger_portrait_num_3 = {
+	OR = {
+		has_trait = vsinger_luka_test
+		has_trait = vsinger_miku_test
+	}
+}
+vsinger_portrait_num_2 = {
+	OR = {
+		always = no
+	}
+}
+vsinger_portrait_num_1 = {
+	OR = {
+		always = no
+	}
+}

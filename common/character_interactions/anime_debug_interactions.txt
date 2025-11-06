@@ -1,0 +1,41 @@
+﻿anime_reset_portrait_interaction = {
+	category = interaction_debug_main
+	common_interaction = yes
+	use_diplomatic_range = no
+	greeting = positive
+	desc = anime_reset_portrait_interaction_desc
+	ai_frequency = 0
+	is_shown = {
+		debug_only = yes
+		scope:actor = {
+			is_ai = no
+		}
+		scope:recipient = {
+			OR = {
+				exists = var:portrait
+				AND = {
+					waifu_portrait_trigger = no
+					any_ancestor = {
+						waifu_portrait_trigger = yes
+					}
+				}
+			}
+		}
+	}
+
+	on_accept = {
+		scope:recipient = {
+			if = {
+				limit = {
+					NOT = { exists = var:portrait }
+				}
+				father ?= { save_scope_as = father }
+				real_father ?= { save_scope_as = real_father }
+				mother ?= { save_scope_as = mother }
+				anime_on_birth_child_fallback_portrait = yes
+			}
+			copy_inheritable_appearance_from = var:portrait
+		}
+	}
+	auto_accept = yes
+}

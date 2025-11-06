@@ -1,0 +1,292 @@
+﻿# based on vanilla world.
+set_muggle_ethnicity = {
+	set_ethnicity = vanity_character_base
+}
+
+# EVERY effect add here must in a `if` that check if already specific portrait
+anime_on_birth_child_specific_portrait = {
+	hunjian_on_birth_set_portrait = yes
+	mygo_on_birth_set_portrait_effect = yes
+	vsinger_on_birth_set_portrait_effect = yes
+	# add your logic here
+}
+
+anime_on_birth_child_fallback_portrait = {
+	anime_on_birth_set_portrait_fallback = yes
+	# add your logic here for 3D portrait resetting
+}
+
+anime_create_muggle_portrait_copy = {
+	create_character = {
+		gender = $FOR$
+		age = 0
+		location = $FOR$.location
+		culture = $FOR$.culture
+		faith = $FOR$.faith
+		save_scope_as = dummy
+	}
+	scope:dummy = {
+		copy_inheritable_appearance_from = $FOR$
+	}
+}
+anime_recover_muggle_portrait = {
+	copy_inheritable_appearance_from = scope:dummy
+	scope:dummy = {
+		death = natural
+	}
+}
+
+anime_on_birth_set_portrait_fallback = {
+	if = {
+		limit = {
+			use_anime_ethnicity = no
+			OR = {
+				scope:mother ?= { use_anime_ethnicity = yes }
+				scope:real_father ?= { use_anime_ethnicity = yes }
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					scope:mother ?= { use_anime_ethnicity = no }
+					scope:real_father ?= { use_anime_ethnicity = no }
+				}
+			}
+			set_muggle_ethnicity = yes
+			if = {
+				limit = {
+					scope:mother ?= { use_anime_ethnicity = yes }
+				}
+				scope:mother = {
+					set_muggle_ethnicity = yes
+					anime_create_muggle_portrait_copy = { FOR = scope:child }
+					set_ethnicity = anime_ethnicity
+				}
+			}
+			else = {
+				scope:real_father = {
+					set_muggle_ethnicity = yes
+					anime_create_muggle_portrait_copy = { FOR = scope:child }
+					set_ethnicity = anime_ethnicity
+				}
+			}
+			anime_recover_muggle_portrait = yes
+		}
+		else_if = {
+			limit = {
+				scope:mother ?= { use_anime_ethnicity = yes }
+				scope:real_father ?= { use_anime_ethnicity = yes }
+				OR = {
+					scope:mother ?= { use_dummy_portrait_inheritance = yes }
+					scope:real_father ?= { use_dummy_portrait_inheritance = yes }
+				}
+			}
+			set_muggle_ethnicity = yes
+			scope:mother = {
+				set_muggle_ethnicity = yes
+			}
+			scope:real_father = {
+				set_muggle_ethnicity = yes
+				anime_create_muggle_portrait_copy = { FOR = scope:child }
+				set_ethnicity = anime_ethnicity
+			}
+			scope:mother = {
+				set_ethnicity = anime_ethnicity
+			}
+			anime_recover_muggle_portrait = yes
+		}
+	}
+}
+
+anime_on_birth_child_create_dummy_parent = {
+	if = {
+		limit = {
+			NOT = { exists = global_var:anime_dummy_male }
+		}
+		create_character = {
+			gender = male
+			age = 16
+			location = scope:child.location
+			culture = scope:child.culture
+			faith = scope:child.faith
+			after_creation = {
+				set_global_variable = {
+					name = anime_dummy_male
+					value = this
+				}
+			}
+		}
+		global_var:anime_dummy_male = {
+			death = natural
+		}
+	}
+	if = {
+		limit = {
+			NOT = { exists = global_var:anime_dummy_female }
+		}
+		create_character = {
+			gender = female
+			age = 16
+			location = scope:child.location
+			culture = scope:child.culture
+			faith = scope:child.faith
+			after_creation = {
+				set_global_variable = {
+					name = anime_dummy_female
+					value = this
+				}
+			}
+		}
+		global_var:anime_dummy_female = {
+			death = natural
+		}
+	}
+	global_var:anime_dummy_male ?= {
+		save_scope_as = trash_bin_male
+	}
+	global_var:anime_dummy_female ?= {
+		save_scope_as = trash_bin_female
+	}
+
+	if = {
+		limit = {
+			NOT = { exists = scope:real_father }
+		}
+		scope:father = { save_scope_as = real_father }
+	}
+
+	scope:real_father ?= {
+		if = {
+			limit = {
+				use_anime_ethnicity = no
+				is_alive = yes
+			}
+			if = {
+				limit = {
+					NOT = { exists = var:portrait }
+				}
+				create_character = {
+					gender = male
+					age = 0
+					location = scope:child.location
+					culture = scope:child.culture
+					faith = scope:child.faith
+					father = scope:real_father
+					ethnicity = father
+					save_scope_as = father_backup
+					after_creation = {
+						copy_inheritable_appearance_from = scope:real_father
+						set_father = scope:trash_bin_male
+					}
+				}
+				set_variable = {
+					name = portrait
+					value = scope:father_backup
+				}
+				scope:father_backup ?= {
+					death = natural
+				}
+			}
+		}
+	}
+	scope:mother ?= {
+		if = {
+			limit = {
+				use_anime_ethnicity = no
+				is_alive = yes
+			}
+			if = {
+				limit = {
+					NOT = { exists = var:portrait }
+				}
+				create_character = {
+					gender = female
+					age = 0
+					location = scope:child.location
+					culture = scope:child.culture
+					faith = scope:child.faith
+					mother = scope:mother
+					ethnicity = mother
+					save_scope_as = mother_backup
+					after_creation = {
+						copy_inheritable_appearance_from = scope:mother
+						set_mother = scope:trash_bin_female
+					}
+				}
+				scope:mother_backup ?= {
+					death = natural
+				}
+			}
+		}
+	}
+	recursive_build_fix_portrait = yes
+}
+recursive_build_fix_portrait = {
+	add_to_global_variable_list = {
+		name = anime_force_check
+		target = this
+	}
+	real_father ?= {
+		if = {
+			limit = {
+				is_alive = yes
+			}
+			add_to_global_variable_list = {
+				name = anime_force_check
+				target = this
+			}
+			recursive_build_fix_portrait = yes
+		}
+	}
+	mother ?= {
+		if = {
+			limit = {
+				is_alive = yes
+			}
+			add_to_global_variable_list = {
+				name = anime_force_check
+				target = this
+			}
+			recursive_build_fix_portrait = yes
+		}
+	}
+}
+recursive_fix_portrait = {
+	if = {
+		limit = {
+			use_anime_ethnicity = no
+			exists = var:portrait
+		}
+		copy_inheritable_appearance_from = var:portrait
+	}
+	real_father ?= {
+		if = {
+			limit = {
+				is_alive = yes
+			}
+			if = {
+				limit = {
+					use_anime_ethnicity = no
+					exists = var:portrait
+				}
+				copy_inheritable_appearance_from = var:portrait
+			}
+			recursive_fix_portrait = yes
+		}
+	}
+	mother ?= {
+		if = {
+			limit = {
+				is_alive = yes
+			}
+			if = {
+				limit = {
+					use_anime_ethnicity = no
+					exists = var:portrait
+				}
+				copy_inheritable_appearance_from = var:portrait
+			}
+			recursive_fix_portrait = yes
+		}
+	}
+}

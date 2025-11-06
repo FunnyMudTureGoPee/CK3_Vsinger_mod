@@ -1,0 +1,27 @@
+﻿types CharacterWindow
+{
+	type flowcontainer_waifu_portrait_transfer_widget = flowcontainer {
+
+		tooltip = "portrait_transfer"
+		using = tooltip_se
+		datacontext = "[GetScriptedGui( 'portrait_transfer' )]"
+		visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Character.MakeScope ).AddScope( 'player', GetPlayer.MakeScope ).End )]"
+		margin_top = 2
+		spacing = -5
+
+		using = Animation_ShowHide_Standard
+
+		button_expand = {
+			size = { 20 20 }
+			datacontext = "[GetScriptedGui( 'portrait_transfer_subtract' )]"
+			onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( Character.MakeScope ).End )]"
+			mirror = horizontal
+		}
+
+		button_expand = {
+			size = { 20 20 }
+			datacontext = "[GetScriptedGui( 'portrait_transfer_add' )]"
+			onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( Character.MakeScope ).End )]"
+		}
+	}
+}

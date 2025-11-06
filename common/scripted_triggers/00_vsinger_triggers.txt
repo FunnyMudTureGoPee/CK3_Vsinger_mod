@@ -1,0 +1,5 @@
+is_vsinger_portrait_trigger = {
+	custom_description = {
+		has_trait = vsinger_base
+	}
+}

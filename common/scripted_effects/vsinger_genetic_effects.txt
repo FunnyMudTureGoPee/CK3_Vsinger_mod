@@ -1,0 +1,47 @@
+﻿vsinger_on_birth_set_portrait_effect = {
+	# As per README.md, check if a specific portrait is already assigned
+	if = {
+		limit = { specific_waifu_portrait_trigger = no }
+
+		# Check if any parent has a Vsinger trait to trigger inheritance
+		if = {
+			limit = {
+				OR = {
+					real_father = { has_any_vsinger_trait = yes }
+					mother = { has_any_vsinger_trait = yes }
+				}
+			}
+
+			random = {
+				chance = 100 # Always attempt inheritance if conditions met
+
+				# Mother priority inheritance
+				if = {
+					limit = { mother = { has_any_vsinger_trait = yes } }
+					
+					if = {
+						limit = { mother = { has_luka_lineage_trait = yes } }
+						vsinger_inherit_luka_lineage_effect = yes
+					}
+					else_if = {
+						limit = { mother = { has_miku_lineage_trait = yes } }
+						vsinger_inherit_miku_lineage_effect = yes
+					}
+				}
+				# Father priority inheritance (if mother has no Vsinger traits)
+				else_if = {
+					limit = { real_father = { has_any_vsinger_trait = yes } }
+
+					if = {
+						limit = { real_father = { has_luka_lineage_trait = yes } }
+						vsinger_inherit_luka_lineage_effect = yes
+					}
+					else_if = {
+						limit = { real_father = { has_miku_lineage_trait = yes } }
+						vsinger_inherit_miku_lineage_effect = yes
+					}
+				}
+			}
+		}
+	}
+}

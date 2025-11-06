@@ -1,0 +1,55 @@
+﻿# to create a delay in a small real time but not in game.
+anime_force_check = {
+    scope = none
+    is_valid = {
+        any_in_global_list = {
+            variable = anime_force_check
+        }
+    }
+    effect = {
+        every_in_global_list = {
+            variable = anime_force_check
+            if = {
+                limit = {
+                    exists = var:portrait
+                    is_alive = yes
+                }
+                copy_inheritable_appearance_from = var:portrait
+            }
+            remove_list_global_variable = {
+                name = anime_force_check
+                target = this
+            }
+        }
+    }
+}
+
+anime_force_check_repeat = {
+    scope = none
+    effect = {
+        every_in_global_list = {
+            variable = anime_force_check
+            if = {
+                limit = {
+                    exists = var:portrait
+                    is_alive = yes
+                }
+                copy_inheritable_appearance_from = var:portrait
+            }
+        }
+    }
+}
+
+anime_restore_portrait_sgui = {
+    scope = character
+    is_valid = {
+        is_alive = yes
+        exists = var:portrait
+    }
+    effect = {
+        if = {
+            limit = { exists = var:portrait }
+            copy_inheritable_appearance_from = var:portrait
+        }
+    }
+}

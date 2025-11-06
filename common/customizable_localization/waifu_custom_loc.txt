@@ -1,0 +1,145 @@
+﻿GetWaifuType = {
+	type = character
+	text = {
+		trigger = { warshipgirl_trigger = yes }
+		localization_key = warshipgirl
+	}
+	text = {
+		trigger = { clover_project_trigger = yes }
+		localization_key = monster_girl
+	}
+	text = {
+		trigger = { deepsea_trigger = yes }
+		localization_key = deepsea
+	}
+	text = {
+		trigger = { is_uma_musume_trigger = yes }
+		localization_key = uma_musume
+	}
+	text = {
+		trigger = { is_ba_student_trigger = yes }
+		localization_key = ba_student
+	}
+	text = {
+		trigger = { is_maid_universalis_trigger = yes }
+		localization_key = maid
+	}
+	text = {
+		trigger = { dolls_trait_trigger = yes }
+		localization_key = ash_dolls
+	}
+	text = {
+		trigger = { is_kansen_trigger = yes }
+		localization_key = kansen
+	}
+	text = {
+		trigger = { hgw_protrait_trigger = yes }
+		localization_key = hgw_servant
+	}
+	text = {
+		trigger = { is_tactics_dolls_trigger = yes }
+		localization_key = tactics_dolls
+	}
+	text = {
+		trigger = { is_ark_operator_trigger = yes }
+		localization_key = ark_operator
+	}
+	text = {
+		trigger = { nikke_portrait_trigger = yes }
+		localization_key = nikke
+	}
+	text = {
+		trigger = { kanmusu_trigger = yes }
+		localization_key = kanmusu
+	}
+	text = {
+		fallback = yes
+		localization_key = waifu
+	}
+}
+
+GetOathedWaifuType = {
+	type = character
+	text = {
+		trigger = {
+			waifu_call_hunjian = yes
+		}
+		localization_key = ship_hunjian
+	}
+	text = {
+		trigger = { is_maid_universalis_trigger = yes }
+		localization_key = personal_maid
+	}
+	text = {
+		trigger = { is_ba_student_trigger = yes }
+		localization_key = ba_student_high_kizuna
+	}
+	text = {
+		trigger = { is_uma_musume_trigger = yes }
+		localization_key = uma_musume_tantou
+	}
+	text = {
+		fallback = yes
+		#localization_key = waifu
+		localization_key = oath_target
+	}
+}
+
+GetPlayerTitleOfWaifuType = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				warshipgirl_trigger = yes
+				deepsea_trigger = yes
+			}
+		}
+		localization_key = wsg_admiral
+	}
+	text = {
+		trigger = { kanmusu_trigger = yes }
+		localization_key = kanmusu_teitoku
+	}
+	text = {
+		trigger = { clover_project_trigger = yes }
+		localization_key = theater_leader
+	}
+	text = {
+		trigger = { dolls_trait_trigger = yes }
+		localization_key = ash_agent
+	}
+	text = {
+		trigger = { is_uma_musume_trigger = yes }
+		localization_key = uma_musume_trainer
+	}
+	text = {
+		trigger = {
+			OR = {
+				is_kansen_trigger = yes
+				is_tactics_dolls_trigger = yes
+				nikke_portrait_trigger = yes
+			}
+		}
+		localization_key = commander
+	}
+	text = {
+		trigger = { hgw_protrait_trigger = yes }
+		localization_key = hgw_master
+	}
+	text = {
+		trigger = { ark_protrait_trigger = yes }
+		localization_key = ark_doctor
+	}
+	text = {
+		trigger = { is_ba_student_trigger = yes }
+		localization_key = ba_sensei
+	}
+	text = {
+		trigger = { is_maid_universalis_trigger = yes }
+		localization_key = maid_master
+	}
+	text = {
+		fallback = yes
+		localization_key = you
+	}
+}

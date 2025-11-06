@@ -1,0 +1,51 @@
+﻿waifu_portrait = {
+	#scope = character
+	is_shown = {
+		waifu_portrait_trigger = yes
+	}
+}
+
+portrait_transfer_add = {
+	scope = character
+	effect = {
+		if = {
+			limit = { exists = var:portrait_index }
+			change_variable = { name = portrait_index add = 1 }
+		}
+		else = {
+			set_variable = { name = portrait_index value = 1 }
+		}
+		if = { limit = { var:portrait_index < 0 } set_variable = { name = portrait_index value = portrait_max } }
+		if = { limit = { var:portrait_index > portrait_max } set_variable = { name = portrait_index value = 0 } }
+	}
+}
+
+portrait_transfer_subtract = {
+	scope = character
+	effect = {
+		if = {
+			limit = { exists = var:portrait_index }
+			change_variable = { name = portrait_index subtract = 1 }
+		}
+		else = {
+			set_variable = { name = portrait_index value = portrait_max }
+		}
+		if = { limit = { var:portrait_index < 0 } set_variable = { name = portrait_index value = portrait_max } }
+		if = { limit = { var:portrait_index > portrait_max } set_variable = { name = portrait_index value = 0 } }
+	}
+}
+
+portrait_transfer = {
+	scope = character
+	is_shown = {
+		is_alive = yes
+		OR = {
+			portrait_max > 0
+			AND = {
+				exists = var:portrait_index
+				var:portrait_index != 0
+			}
+		}
+		can_change_clothes_by_player_trigger = yes
+	}
+}

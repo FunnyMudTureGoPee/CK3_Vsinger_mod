@@ -1,0 +1,5 @@
+﻿l_simp_chinese:
+ summon_vsinger_decision:0 "召唤虚拟歌姬"
+ summon_vsinger_decision_desc:0 "尝试召唤来自未来的虚拟歌姬。"
+ summon_vsinger_decision_tooltip:0 "召唤虚拟歌姬"
+ summon_vsinger_decision_confirm:0 "召唤"

@@ -1,0 +1,16 @@
+﻿anime_portrait = {
+	portrait_group = anime
+	anime_no_morph_gene = {
+		dna_modifiers = {
+			morph = {
+				mode = modify
+				gene = anime_morph_genes
+				template = anime_no_morph_gene
+				value = 1.0
+			}
+		}
+		weight = {
+			base = 100
+		}
+	}
+}

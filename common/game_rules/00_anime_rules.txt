@@ -1,0 +1,36 @@
+﻿portrait_transfer_target = {
+	categories = {
+		waifu
+	}
+	default = portrait_transfer_target_all
+	portrait_transfer_target_all = { }
+	portrait_transfer_target_onlyme = { }
+}
+
+waifu_sexuality_distribution = {
+	categories = {
+		game_modes waifu
+	}
+	
+	default = waifu_sexuality_distribution_default
+	waifu_sexuality_distribution_default = { }
+	waifu_sexuality_distribution_equal = { }
+	waifu_sexuality_distribution_most_common_heterosexuality = { }
+	waifu_sexuality_distribution_most_common_homosexuality = { }
+	waifu_sexuality_distribution_most_common_bisexuality = { }
+	waifu_sexuality_distribution_most_common_asexuality = { }
+}
+
+husubando_sexuality_distribution = {
+	categories = {
+		game_modes waifu
+	}
+	
+	default = husubando_sexuality_distribution_default
+	husubando_sexuality_distribution_default = { }
+	husubando_sexuality_distribution_equal = { }
+	husubando_sexuality_distribution_most_common_heterosexuality = { }
+	husubando_sexuality_distribution_most_common_homosexuality = { }
+	husubando_sexuality_distribution_most_common_bisexuality = { }
+	husubando_sexuality_distribution_most_common_asexuality = { }
+}

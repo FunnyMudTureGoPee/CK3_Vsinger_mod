@@ -1,0 +1,3 @@
+﻿waifu = {
+	sort_order = 99
+}

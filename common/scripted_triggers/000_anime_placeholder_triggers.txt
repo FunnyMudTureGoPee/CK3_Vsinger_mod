@@ -1,0 +1,27 @@
+﻿has_relation_hunjian_or_shiyuezhe = {
+	$CHARACTER$ = {
+		exists = global_var:hunjian_core_loaded
+		always = no
+	}
+}
+has_relation_maid_or_master = {
+	$CHARACTER$ = {
+		exists = global_var:maid_nation_loaded
+		always = no
+	}
+}
+has_relation_personal_maid_or_master = {
+	$CHARACTER$ = {
+		exists = global_var:maid_nation_loaded
+		always = no
+	}
+}
+has_relation_maid_inspect_or_target = {
+	$CHARACTER$ = {
+		exists = global_var:maid_nation_loaded
+		always = no
+	}
+}
+hunjian_on_birth_set_portrait_trigger = {
+	always = no
+}

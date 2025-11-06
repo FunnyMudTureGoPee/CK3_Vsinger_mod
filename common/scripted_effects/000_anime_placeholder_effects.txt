@@ -1,0 +1,3 @@
+﻿hunjian_on_birth_set_portrait = {}
+mygo_on_birth_set_portrait_effect = {}
+nikke_on_birth_set_portrait_effect = {}

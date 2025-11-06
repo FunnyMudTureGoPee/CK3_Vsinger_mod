@@ -1,0 +1,9 @@
+﻿types placeholder {
+    type UniUI_IMHO_button = container {}
+    type UniUI_IMHO_PoV = container {}
+	type pod_compatibility_warning = icon{}
+    type agot_dragon_edit_button = icon{}
+    type agot_interaction_dragon_edit_button = icon{}
+    type agot_interaction_dragon_tree_button = icon{}
+    type agot_interaction_knight_tree_button = icon{}
+}

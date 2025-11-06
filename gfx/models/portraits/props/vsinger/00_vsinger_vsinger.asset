@@ -1,0 +1,136 @@
+﻿pdxmesh = {
+	name = "vsinger_luka_test_0_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.6
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "vsinger_luka_test_0_diffuse.dds"
+		texture_specular = "vsinger_luka_test_0_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "vsinger_luka_test_0_entity"
+	pdxmesh = "vsinger_luka_test_0_mesh"
+}
+pdxmesh = {
+	name = "vsinger_luka_test_1_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.6
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "vsinger_luka_test_1_diffuse.dds"
+		texture_specular = "vsinger_luka_test_1_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "vsinger_luka_test_1_entity"
+	pdxmesh = "vsinger_luka_test_1_mesh"
+}
+pdxmesh = {
+	name = "vsinger_luka_test_2_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.6
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "vsinger_luka_test_2_diffuse.dds"
+		texture_specular = "vsinger_luka_test_2_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "vsinger_luka_test_2_entity"
+	pdxmesh = "vsinger_luka_test_2_mesh"
+}
+pdxmesh = {
+	name = "vsinger_luka_test_3_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.6
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "vsinger_luka_test_3_diffuse.dds"
+		texture_specular = "vsinger_luka_test_3_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "vsinger_luka_test_3_entity"
+	pdxmesh = "vsinger_luka_test_3_mesh"
+}
+pdxmesh = {
+	name = "vsinger_miku_test_0_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.6
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "vsinger_miku_test_0_diffuse.dds"
+		texture_specular = "vsinger_miku_test_0_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "vsinger_miku_test_0_entity"
+	pdxmesh = "vsinger_miku_test_0_mesh"
+}
+pdxmesh = {
+	name = "vsinger_miku_test_1_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.6
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "vsinger_miku_test_1_diffuse.dds"
+		texture_specular = "vsinger_miku_test_1_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "vsinger_miku_test_1_entity"
+	pdxmesh = "vsinger_miku_test_1_mesh"
+}
+pdxmesh = {
+	name = "vsinger_miku_test_2_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.6
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "vsinger_miku_test_2_diffuse.dds"
+		texture_specular = "vsinger_miku_test_2_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "vsinger_miku_test_2_entity"
+	pdxmesh = "vsinger_miku_test_2_mesh"
+}
+pdxmesh = {
+	name = "vsinger_miku_test_3_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.6
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "vsinger_miku_test_3_diffuse.dds"
+		texture_specular = "vsinger_miku_test_3_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "vsinger_miku_test_3_entity"
+	pdxmesh = "vsinger_miku_test_3_mesh"
+}

@@ -1,0 +1,18 @@
+﻿morph_genes = {
+	portrait_group = anime
+
+	anime_morph_genes = {
+		group = hm_portrait_group
+		anime_no_morph_gene = {
+			visible = no
+			index = 0
+			anime_male = {
+				setting = { attribute = "bs_no_portrait"	value = { min = 10.0 max = 10.0 } }
+				setting = { attribute = "bs_body_no_portrait"	value = { min = 10.0 max = 10.0 } }
+			}
+			anime_female = anime_male
+			anime_boy = anime_male
+			anime_girl = anime_male
+		}
+	}
+}

@@ -1,0 +1,1 @@
+﻿gui/anime_trayers.gui = anime_trayer_hud_layer

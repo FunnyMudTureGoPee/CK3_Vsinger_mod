@@ -1,0 +1,192 @@
+﻿most_heterosexuality = {
+	trigger_if = {
+		limit = {
+			waifu_portrait_trigger = no
+		}
+		has_game_rule = sexuality_distribution_default
+	}
+	trigger_else = {
+		trigger_if = {
+			limit = {
+				is_female = yes
+			}
+			trigger_if = {
+				limit = {
+					has_game_rule = waifu_sexuality_distribution_default
+				}
+				has_game_rule = sexuality_distribution_default
+			}
+			trigger_else = {
+				has_game_rule = waifu_sexuality_distribution_most_common_heterosexuality
+			}
+		}
+		trigger_else = {
+			trigger_if = {
+				limit = {
+					has_game_rule = husubando_sexuality_distribution_default
+				}
+				has_game_rule = sexuality_distribution_default
+			}
+			trigger_else = {
+				has_game_rule = husubando_sexuality_distribution_most_common_heterosexuality
+			}
+		}
+	}
+}
+
+most_homosexuality = {
+	trigger_if = {
+		limit = {
+			waifu_portrait_trigger = no
+		}
+		has_game_rule = sexuality_distribution_most_common_homosexuality
+	}
+	trigger_else = {
+		trigger_if = {
+			limit = {
+				is_female = yes
+			}
+			trigger_if = {
+				limit = {
+					has_game_rule = waifu_sexuality_distribution_default
+				}
+				has_game_rule = sexuality_distribution_most_common_homosexuality
+			}
+			trigger_else = {
+				has_game_rule = waifu_sexuality_distribution_most_common_homosexuality
+			}
+		}
+		trigger_else = {
+			trigger_if = {
+				limit = {
+					has_game_rule = husubando_sexuality_distribution_default
+				}
+				has_game_rule = sexuality_distribution_most_common_homosexuality
+			}
+			trigger_else = {
+				has_game_rule = husubando_sexuality_distribution_most_common_homosexuality
+			}
+		}
+	}
+}
+
+most_bisexuality = {
+	trigger_if = {
+		limit = {
+			waifu_portrait_trigger = no
+		}
+		has_game_rule = sexuality_distribution_most_common_bisexuality
+	}
+	trigger_else = {
+		trigger_if = {
+			limit = {
+				is_female = yes
+			}
+			trigger_if = {
+				limit = {
+					has_game_rule = waifu_sexuality_distribution_default
+				}
+				has_game_rule = sexuality_distribution_most_common_bisexuality
+			}
+			trigger_else = {
+				has_game_rule = waifu_sexuality_distribution_most_common_bisexuality
+			}
+		}
+		trigger_else = {
+			trigger_if = {
+				limit = {
+					has_game_rule = husubando_sexuality_distribution_default
+				}
+				has_game_rule = sexuality_distribution_most_common_bisexuality
+			}
+			trigger_else = {
+				has_game_rule = husubando_sexuality_distribution_most_common_bisexuality
+			}
+		}
+	}
+}
+
+most_asexuality = {
+	trigger_if = {
+		limit = {
+			waifu_portrait_trigger = no
+		}
+		has_game_rule = sexuality_distribution_most_common_asexuality
+	}
+	trigger_else = {
+		trigger_if = {
+			limit = {
+				is_female = yes
+			}
+			trigger_if = {
+				limit = {
+					has_game_rule = waifu_sexuality_distribution_default
+				}
+				has_game_rule = sexuality_distribution_most_common_asexuality
+			}
+			trigger_else = {
+				has_game_rule = waifu_sexuality_distribution_most_common_asexuality
+			}
+		}
+		trigger_else = {
+			trigger_if = {
+				limit = {
+					has_game_rule = husubando_sexuality_distribution_default
+				}
+				has_game_rule = sexuality_distribution_most_common_asexuality
+			}
+			trigger_else = {
+				has_game_rule = husubando_sexuality_distribution_most_common_asexuality
+			}
+		}
+	}
+}
+
+equal_sexuality = {
+	trigger_if = {
+		limit = {
+			waifu_portrait_trigger = no
+		}
+		has_game_rule = sexuality_distribution_equal
+	}
+	trigger_else = {
+		trigger_if = {
+			limit = {
+				is_female = yes
+			}
+			trigger_if = {
+				limit = {
+					has_game_rule = waifu_sexuality_distribution_default
+				}
+				has_game_rule = sexuality_distribution_equal
+			}
+			trigger_else = {
+				has_game_rule = waifu_sexuality_distribution_equal
+			}
+		}
+		trigger_else = {
+			trigger_if = {
+				limit = {
+					has_game_rule = husubando_sexuality_distribution_default
+				}
+				has_game_rule = sexuality_distribution_equal
+			}
+			trigger_else = {
+				has_game_rule = husubando_sexuality_distribution_equal
+			}
+		}
+	}
+}
+
+on_set_relation_same_gender = {
+	OR = {
+		AND = {
+			ROOT = { is_female = yes }
+			scope:target = { is_female = yes }
+		}
+		AND = {
+			ROOT = { is_female = no }
+			scope:target = { is_female = no }
+		}
+	}
+}

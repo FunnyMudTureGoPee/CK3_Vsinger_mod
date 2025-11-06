@@ -1,0 +1,14 @@
+﻿types modcheck{
+	type anime_core_check = widget {
+		parentanchor = center
+		scale = "[ScaleToFitElementInside('(int32)1920', '(int32)1080')]"
+		visible = "[GetScriptedGui('lack_anime_core').IsShown(GuiScope.End)]"
+		
+		text_single = {
+			layoutpolicy_horizontal = expanding
+			parentanchor = center
+			fontsize = 50
+			text = "LACK_ANIME_CORE"
+		}
+	}
+}

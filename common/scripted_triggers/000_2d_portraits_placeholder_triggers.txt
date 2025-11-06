@@ -1,0 +1,173 @@
+﻿
+# 为了避免错误，所有引用的trigger都应该在这里注册
+# 在各自mod实际运行时会被覆盖所以不会有问题
+# 建议每个mod在开局时设置全局变量方便辨识
+# to suppress warning
+# every trigger used should have a placeholder here
+# (and to be override in those mods who really use them)
+# with a global variable mark the mod is loaded.
+
+### triggers ###
+# this trigger is used for local mod debugging. DONT use it for any mod published
+anime_core_lib_dummy_trigger = {
+	always = no
+}
+
+# 战舰少女 / Warshipgirls (幻萌入侵 Hm Invasion 立绘与角色包)
+# global_var:hmi_character_loaded
+# https://steamcommunity.com/sharedfiles/filedetails/?id=2224124758
+warshipgirl_trigger = {
+	always = no
+}
+clover_project_trigger = {
+	always = no
+}
+deepsea_trigger = {
+	always = no
+}
+hm_misc_waifu_trigger = {
+	always = no
+}
+# 碧蓝航线 / Azur Lane
+# global_var:azur_lane_loaded
+# https://steamcommunity.com/sharedfiles/filedetails/?id=2471250202
+is_kansen_trigger = {
+	always = no
+}
+# 少女前线 / Girls' Frontline
+# global_var:girls_frontline_loaded
+# https://steamcommunity.com/sharedfiles/filedetails/?id=2824455388
+is_tactics_dolls_trigger = {
+	always = no
+}
+# 明日方舟 / Arknights
+# global_var:arknights_loaded
+# https://steamcommunity.com/sharedfiles/filedetails/?id=2839796643
+ark_protrait_trigger = {
+	always = no
+}
+is_ark_operator_trigger = {
+	always = no
+}
+# Arknight Kazdel/Sarkaz Expand - 明日方舟卡兹戴尔/萨卡兹扩展
+# global_var:sarkaz_core_loaded
+# https://steamcommunity.com/sharedfiles/filedetails/?id=3485905236
+sarkaz_anime_trigger = {
+	always = no
+}
+# 女仆之国 / Maid Universalis
+# global_var:maid_nation_loaded
+# https://steamcommunity.com/sharedfiles/filedetails/?id=3000513923
+is_maid_portrait_trigger = {
+	always = no
+}
+is_maid_universalis_trigger = {
+	always = no
+}
+# 蔚蓝档案 / Blue Archive
+# global_var:blue_archive_loaded
+# https://steamcommunity.com/sharedfiles/filedetails/?id=3165975862
+ba_portrait_trigger = {
+	always = no
+}
+is_ba_student_trigger = {
+	always = no
+}
+# 闪耀！优骏少女 / Pretty Derby
+# global_var:pretty_derby_loaded
+# https://steamcommunity.com/sharedfiles/filedetails/?id=3472166307
+is_uma_musume_trigger = {
+	always = no
+}
+# 苏丹小祥 / Sultan Sakiko
+# global_var:sudan_sakiko_loaded
+# https://steamcommunity.com/sharedfiles/filedetails/?id=3565062937
+is_sdsk_band_girls = {
+	always = no
+}
+# 灰烬战线 (Discountined)
+# https://steamcommunity.com/sharedfiles/filedetails/?id=2241733178
+# Reborn WIP
+dolls_trait_trigger = {
+	always = no
+}
+# 圣杯战争 / Holy Grail War (Discountined)
+# https://steamcommunity.com/sharedfiles/filedetails/?id=2794410228
+# Maintained in
+# https://steamcommunity.com/sharedfiles/filedetails/?id=3394903427
+hgw_protrait_trigger = {
+	always = no
+}
+# 云图计划 / Project Neural Cloud
+# global_var:pnc_loaded
+# https://steamcommunity.com/sharedfiles/filedetails/?id=2947250325
+is_c_dolls_trait_trigger = {
+	always = no
+}
+# Don't ask what it is.
+# global_var:wsgl_loaded
+wsgl_portrait_trigger = {
+	always = no
+}
+# 铃兰宗教 / Suzuran Religion
+# https://steamcommunity.com/sharedfiles/filedetails/?id=2980803729
+suzuran_trait_trigger = {
+	always = no
+}
+# Anime King 3 (Discountined)
+# https://steamcommunity.com/sharedfiles/filedetails/?id=2245363583
+# Maintained in
+# https://steamcommunity.com/sharedfiles/filedetails/?id=3231082623
+ak3_protrait_trigger = {
+	always = no
+}
+# Shadow Verse / 影之诗
+# https://steamcommunity.com/sharedfiles/filedetails/?id=3043926495
+sve_follower_trait_trigger = {
+	always = no
+}
+# kancolle (offline)
+# global_var:kanmusu_character_loaded
+# https://steamcommunity.com/sharedfiles/filedetails/?id=2554287752
+kanmusu_trigger = {
+	always = no
+}
+# MyGO Ave Mujica
+# global_var:Mygo_mod_flag
+# https://steamcommunity.com/sharedfiles/filedetails/?id=3239680084
+MyGO_Ave_Mujica_character_trigger = {
+	always = no
+}
+# 芙莉莲 / Frieren's Travel
+# global_var:Frieren_core_loaded
+# https://steamcommunity.com/sharedfiles/filedetails/?id=3340959611
+Frieren_trigger = {
+	always = no
+}
+# vtuber风云
+# global_var:vtuber_kings_loaded
+# https://steamcommunity.com/sharedfiles/filedetails/?id=3010195832
+vtb_portrait_trigger = {
+	always = no
+}
+# MyGO!!!!! character and music pack
+# global_var:MyGO_core_loaded
+# https://steamcommunity.com/sharedfiles/filedetails/?id=3358643586
+MyGO_trigger = {
+	always = no
+}
+# Goddess of Victory: Nikke
+# global_var:nikke_loaded
+# https://steamcommunity.com/sharedfiles/filedetails/?id=3364368094
+nikke_portrait_trigger = {
+	always = no
+}
+# 崩坏·星穹铁道：天外来客 / Honkai: Star Rail - VFOS
+# global_var:Honkai_Starrail_core_loaded
+# https://steamcommunity.com/sharedfiles/filedetails/?id=3456734215
+HSR_is_Honkai_Starrail_character = {
+	always = no
+}
+HSR_generic_portrait_trigger = {
+	always = no
+}

@@ -1,0 +1,8 @@
+﻿waifu_call_hunjian = {
+	OR = {
+		warshipgirl_trigger = yes
+		deepsea_trigger = yes
+		is_kansen_trigger = yes
+		kanmusu_trigger = yes
+	}
+}

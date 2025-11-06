@@ -1,0 +1,8 @@
+﻿vsinger_luka_test_0 = { portrait_group = anime entity = { required_tags = "" node = "bn_h_head_mid" entity = "vsinger_luka_test_0_entity" } }
+vsinger_luka_test_1 = { portrait_group = anime entity = { required_tags = "" node = "bn_h_head_mid" entity = "vsinger_luka_test_1_entity" } }
+vsinger_luka_test_2 = { portrait_group = anime entity = { required_tags = "" node = "bn_h_head_mid" entity = "vsinger_luka_test_2_entity" } }
+vsinger_luka_test_3 = { portrait_group = anime entity = { required_tags = "" node = "bn_h_head_mid" entity = "vsinger_luka_test_3_entity" } }
+vsinger_miku_test_0 = { portrait_group = anime entity = { required_tags = "" node = "bn_h_head_mid" entity = "vsinger_miku_test_0_entity" } }
+vsinger_miku_test_1 = { portrait_group = anime entity = { required_tags = "" node = "bn_h_head_mid" entity = "vsinger_miku_test_1_entity" } }
+vsinger_miku_test_2 = { portrait_group = anime entity = { required_tags = "" node = "bn_h_head_mid" entity = "vsinger_miku_test_2_entity" } }
+vsinger_miku_test_3 = { portrait_group = anime entity = { required_tags = "" node = "bn_h_head_mid" entity = "vsinger_miku_test_3_entity" } }

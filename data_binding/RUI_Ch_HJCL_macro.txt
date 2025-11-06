@@ -1,0 +1,5 @@
+﻿macro = {
+	description = "Is 'Character' an Anime Character?"
+	definition = "RUI_Ch_HJCL_macro_01"
+	replace_with = "GetScriptedGui('waifu_portrait').IsShown( GuiScope.SetRoot( Character.MakeScope ).End)"
+}
