@@ -1,6 +1,14 @@
 # Vsinger Mod 自动化工作流指南
 
-本文档旨在简述 Vsinger Mod 中用于管理角色特质、肖像和遗传逻辑的自动化工作流程。
+## 致谢与说明
+
+本 Mod 的核心肖像系统基于 [二向箔 (Anime Portrait Overhaul)](https://steamcommunity.com/sharedfiles/filedetails/?id=2975613539) 框架及其 `animecorelib.py` 脚本。我们在此对原作者的杰出工作表示最诚挚的敬意和感谢。
+
+本文档 (`vsinger_readme.md`) 主要关注 **Vsinger Mod 自身的自动化工作流程**，特别是如何利用我们改进后的 Python 脚本来快速添加新的角色和特质。
+
+如果您希望深入了解 `二向箔` 框架的底层实现原理、接口细节或手动配置方法，请参阅原始的说明文档：[anime_core_lib_readme.md](./anime_core_lib_readme.md)。
+
+---
 
 ## 核心设计思想
 

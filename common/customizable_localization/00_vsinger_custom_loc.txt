@@ -1,0 +1,33 @@
+# This file adds Vsinger-specific titles to the customizable localization system.
+# Using prepend_to_list ensures our definitions are checked before the default ones.
+
+prepend_to_list = {
+    name = GetWaifuType
+    value = {
+        text = {
+            trigger = { is_vsinger_portrait_trigger = yes }
+            localization_key = VSINGER_TYPE
+        }
+    }
+}
+
+prepend_to_list = {
+    name = GetOathedWaifuType
+    value = {
+        text = {
+            # For now, we use the base trigger. You can create a more specific one for the "oathed" relationship later.
+            trigger = { is_vsinger_portrait_trigger = yes }
+            localization_key = VSINGER_OATHED_TYPE
+        }
+    }
+}
+
+prepend_to_list = {
+    name = GetPlayerTitleOfWaifuType
+    value = {
+        text = {
+            trigger = { is_vsinger_portrait_trigger = yes }
+            localization_key = VSINGER_PLAYER_TITLE
+        }
+    }
+}
