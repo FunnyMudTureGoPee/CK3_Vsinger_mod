@@ -1,30 +1,120 @@
-vsinger_spawn_miku = {
-    create_character = {
-        template = vsinger_miku_template
-        employer = ROOT
-        save_scope_as = invited_character
-    }
-    scope:invited_character = {
-        set_ethnicity = anime_ethnicity
-        set_variable = {
-            name = portrait_index
-            value = 0
-        }
-    }
+# Vsinger Spawn Effects
+vsinger_spawn_luotianyi = {
+	create_character = {
+		template = vsinger_luotianyi_template
+		employer = ROOT
+		save_scope_as = new_vsinger
+	}
+	scope:new_vsinger = {
+		# Call the inheritance helper to randomly assign a Luo Tianyi trait
+		vsinger_inherit_luotianyi_lineage_effect = yes
+		if = {
+			limit = {
+				var:portrait_index < 0
+			}
+			set_variable = {
+				name = portrait_index
+				value = portrait_max
+			}
+		}
+		if = {
+			limit = {
+				var:portrait_index > portrait_max
+			}
+			set_variable = {
+				name = portrait_index
+				value = 0
+			}
+		}
+	}
 }
 
-vsinger_spawn_luka = {
-    create_character = {
-        template = vsinger_luka_template
-        employer = ROOT
-        save_scope_as = invited_character
-    }
-    scope:invited_character = {
-        set_ethnicity = anime_ethnicity
-        add_trait = vsinger_luka_test
-        set_variable = {
-            name = portrait_index
-            value = 0
-        }
-    }
+vsinger_spawn_yuezhengling = {
+	create_character = {
+		template = vsinger_yuezhengling_template
+		employer = ROOT
+		save_scope_as = new_vsinger
+	}
+	scope:new_vsinger = {
+		# Call the inheritance helper to randomly assign a Luo Tianyi trait
+		vsinger_inherit_luotianyi_lineage_effect = yes
+		if = {
+			limit = {
+				var:portrait_index < 0
+			}
+			set_variable = {
+				name = portrait_index
+				value = portrait_max
+			}
+		}
+		if = {
+			limit = {
+				var:portrait_index > portrait_max
+			}
+			set_variable = {
+				name = portrait_index
+				value = 0
+			}
+		}
+	}
+}
+
+vsinger_spawn_luotianyi_test1 = {
+	create_character = {
+		template = vsinger_luotianyi_template
+		employer = ROOT
+		save_scope_as = invited_character
+	}
+	scope:invited_character = {
+		set_ethnicity = anime_ethnicity
+		add_trait = vsinger_luotianyi_official
+		if = {
+			limit = {
+				var:portrait_index < 0
+			}
+			set_variable = {
+				name = portrait_index
+				value = portrait_max
+			}
+		}
+		if = {
+			limit = {
+				var:portrait_index > portrait_max
+			}
+			set_variable = {
+				name = portrait_index
+				value = 0
+			}
+		}
+	}
+}
+
+vsinger_spawn_luotianyi_test2 = {
+	create_character = {
+		template = vsinger_luotianyi_template
+		employer = ROOT
+		save_scope_as = invited_character
+	}
+	scope:invited_character = {
+		set_ethnicity = anime_ethnicity
+		add_trait = vsinger_luotianyi_birthDay
+		if = {
+			limit = {
+				var:portrait_index < 0
+			}
+			set_variable = {
+				name = portrait_index
+				value = portrait_max
+			}
+		}
+		if = {
+			limit = {
+				var:portrait_index > portrait_max
+			}
+			set_variable = {
+				name = portrait_index
+				value = 0
+			}
+		}
+	}
 }

@@ -1,20 +1,66 @@
 ﻿l_simp_chinese:
+ VSINGER_TYPE:0 "虚拟歌姬"
+ VSINGER_OATHED_TYPE:0 "签约歌手"
+ VSINGER_PLAYER_TITLE:0 "制作人"
  trait_vsinger_miku_desc:0 "这个角色是初音未来。"
  trait_vsinger_miku_character_desc:0 "初音未来"
  trait_vsinger_luka_desc:0 "这个角色是巡音流歌。"
  trait_vsinger_luka_character_desc:0 "巡音流歌"
 
- vsinger_nation_maid:0 "虚拟歌姬"
+ trait_vsinger_base:0 "虚拟歌手"
+ trait_vsinger_base_desc:0 "虚拟歌手"
+ trait_vsinger_base_character_desc:0 "这个角色是一位虚拟歌手。"
+
+
  trait_vsinger_miku:0 "初音未来"
  trait_vsinger_luka:0 "巡音流歌"
 
- trait_vsinger_luka_test:0 "test"
- trait_vsinger_luka_test_desc:0 "This character is test."
- trait_vsinger_luka_test_character_desc:0 "test"
- trait_vsinger_miku_test:0 "test"
- trait_vsinger_miku_test_desc:0 "This character is test."
- trait_vsinger_miku_test_character_desc:0 "test"
+ 
+ vsinger_luotianyi:0 "天依"
+ trait_vsinger_luotianyi_official:0 "洛天依_official"
+ trait_vsinger_luotianyi_official_character_desc:0 "吃货星人 降生到这里 一身水蓝琉璃"
+ trait_vsinger_luotianyi_birthDay:0 "洛天依_生日会"
+ trait_vsinger_luotianyi_birthDay_character_desc:0 "每一个梦都是个旋律　漫天回忆该如何去聆听\n把心里面的思念传递给你\n让我们一起唱吧　心中的歌"
 
- VSINGER_TYPE:0 "虚拟歌姬"
- VSINGER_OATHED_TYPE:0 "签约歌手"
- VSINGER_PLAYER_TITLE:0 "制作人"
+ trait_vsinger_luotianyi_fairyTale:0 "洛天依_逆转童话"
+ trait_vsinger_luotianyi_fairyTale_character_desc:0 "命运的织线　乱纷纷地交叠\n乱纷纷地交叠　至开解\n最后一次站在她身边\n向她宣告了万物的超越"
+ trait_vsinger_luotianyi_liuguang:0 "洛天依_流光协奏"
+ trait_vsinger_luotianyi_liuguang_character_desc:0 "享受吧pop pop pop pop popular song\n挥洒更多更多热情不害怕限量\n借你手中纯蓝荧光整个城市点亮\n我会全心为你歌唱"
+ trait_vsinger_luotianyi_tianming:0 "洛天依_天星问"
+ trait_vsinger_luotianyi_tianming_character_desc:0 "这天地万般 如何与我久周旋\n择天命已回还 望大千 无穷星汉\n原日月亘古不为人心 策反"
+
+ trait_vsinger_yuezhengling_birthDay:0 "乐正绫_生日会"
+ trait_vsinger_yuezhengling_birthDay_character_desc:0 "I see on the last day last day last day\n火光将这永恒的一刻照映\n即使未来坍为灰烬\n歌唱声绝无止息\n就在最后 最后一曲\n望向我吹拂去尘霾的眼睛\n我们盛放直到世界倾圮\n我们再无分离"
+ trait_vsinger_yuezhengling_official:0 "乐正绫_official"
+ trait_vsinger_yuezhengling_official_character_desc:0 "我仍然在 无人问津的阴雨霉湿之地\n和着雨音 唱着没有听众的歌曲\n人潮仍是漫无目的地向目的地散去\n忙碌着 无为着 继续"
+
+ summon_vsinger_decision_title:0 "召唤虚拟歌姬"
+ summon_vsinger_decision_desc:0 "一位神秘的经纪人联系了我，声称可以为我的宫廷引荐“洛天依”或者“乐正绫”的“虚拟歌姬”。这或许能极大地提升我宫廷的文化声望，但代价也不菲。"
+ vsinger_event.001.t:0 "歌姬降临"
+ vsinger_event.001.desc:0 "在经纪人的引荐下，一位有着灰发、绿瞳的少女和一位褐发、红瞳的少女双双来到了我的面前。她们的歌声如同天籁，必将为我的领地带来前所未有的活力。"
+ vsinger_event.001.a:0 "欢迎你，天依！"
+ vsinger_event.001.b:0 "欢迎你，阿绫！"
+ vsinger_event.001.b:0 "还是算了吧。"
+ vsinger_luotianyi_summon_tt:0 "一位随机装扮的洛天依将会加入你的宫廷！"
+ vsinger_yuezhengling_summon_tt:0 "一位随机装扮的乐正绫将会加入你的宫廷！"
+
+ vsinger_luotianyi_name:0 "天依"
+ vsinger_luotianyi_dynasty_name:0 "洛"
+
+ vsinger_yuezhengling_name:0 "绫"
+ vsinger_yuezhengling_dynasty_name:0 "乐正"
+
+ trait_vsinger_luotianyi_birthDay_desc:0 "这个角色拥有天依生日会的多套换装."
+
+ trait_vsinger_luotianyi_fairyTale_desc:0 "这个角色拥有天依逆转童话的多套换装."
+
+ trait_vsinger_luotianyi_liuguang_desc:0 "这个角色拥有天依流光协奏的多套换装."
+
+ trait_vsinger_luotianyi_official_desc:0 "这个角色拥有天依官方声库形象的多套换装."
+
+ trait_vsinger_luotianyi_tianming_desc:0 "这个角色拥有天依《天星问》曲绘的多套换装."
+
+ trait_vsinger_yuezhengling_birthDay_desc:0 "这个角色拥有阿绫生日会的多套换装."
+
+ trait_vsinger_yuezhengling_official_desc:0 "这个角色拥有阿绫官方声库形象的多套换装."
+

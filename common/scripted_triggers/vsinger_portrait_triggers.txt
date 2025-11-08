@@ -1,7 +1,43 @@
-﻿vsinger_portrait_num_3 = {
+﻿vsinger_portrait_num_10 = {
 	OR = {
-		has_trait = vsinger_luka_test
-		has_trait = vsinger_miku_test
+		has_trait = vsinger_luotianyi_birthDay
+		has_trait = vsinger_yuezhengling_birthDay
+	}
+}
+vsinger_portrait_num_9 = {
+	OR = {
+		always = no
+	}
+}
+vsinger_portrait_num_8 = {
+	OR = {
+		has_trait = vsinger_luotianyi_liuguang
+	}
+}
+vsinger_portrait_num_7 = {
+	OR = {
+		has_trait = vsinger_luotianyi_official
+	}
+}
+vsinger_portrait_num_6 = {
+	OR = {
+		has_trait = vsinger_yuezhengling_official
+	}
+}
+vsinger_portrait_num_5 = {
+	OR = {
+		always = no
+	}
+}
+vsinger_portrait_num_4 = {
+	OR = {
+		always = no
+	}
+}
+vsinger_portrait_num_3 = {
+	OR = {
+		has_trait = vsinger_luotianyi_fairyTale
+		has_trait = vsinger_luotianyi_tianming
 	}
 }
 vsinger_portrait_num_2 = {

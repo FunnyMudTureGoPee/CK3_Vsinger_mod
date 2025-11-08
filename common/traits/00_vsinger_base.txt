@@ -4,4 +4,5 @@ vsinger_base = {
     genetic = no
     random_creation = 0
     desc = trait_vsinger_base_desc
+    icon = "Vsinger.dds" # TODO: Change icon if needed
 }

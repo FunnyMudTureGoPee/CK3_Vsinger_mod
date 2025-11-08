@@ -1,6 +1,13 @@
 ﻿# Generated portrait max values for vsinger
 vsinger_max_portrait = {
-	if = { limit = { vsinger_portrait_num_3 = yes } value = 3 }
+	if = { limit = { vsinger_portrait_num_10 = yes } value = 10 }
+	else_if = { limit = { vsinger_portrait_num_9 = yes } value = 9 }
+	else_if = { limit = { vsinger_portrait_num_8 = yes } value = 8 }
+	else_if = { limit = { vsinger_portrait_num_7 = yes } value = 7 }
+	else_if = { limit = { vsinger_portrait_num_6 = yes } value = 6 }
+	else_if = { limit = { vsinger_portrait_num_5 = yes } value = 5 }
+	else_if = { limit = { vsinger_portrait_num_4 = yes } value = 4 }
+	else_if = { limit = { vsinger_portrait_num_3 = yes } value = 3 }
 	else_if = { limit = { vsinger_portrait_num_2 = yes } value = 2 }
 	else_if = { limit = { vsinger_portrait_num_1 = yes } value = 1 }
 	else = {

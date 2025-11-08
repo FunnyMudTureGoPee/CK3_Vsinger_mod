@@ -1,0 +1,6 @@
+# Debug traits for the summon decision workflow
+
+debug_decision_effect_fired = { is_good = yes genetic = no random_creation = 0 }
+debug_event_immediate_fired = { is_good = yes genetic = no random_creation = 0 }
+debug_event_option_taken = { is_good = yes genetic = no random_creation = 0 }
+debug_spawn_effect_called = { is_good = yes genetic = no random_creation = 0 }

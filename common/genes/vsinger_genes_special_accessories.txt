@@ -3,58 +3,380 @@
 		portrait_group = anime
 		vsinger_props_1 = {
 			group = anime_portrait_group
-			vsinger_luka_test_0 = {
+			vsinger_luotianyi_birthDay_0 = {
 				index = 1
-				anime_male = { 1 = vsinger_luka_test_0 }
+				anime_male = { 1 = vsinger_luotianyi_birthDay_0 }
 				anime_female = anime_male
 				anime_boy = anime_male
 				anime_girl = anime_male
 			}
-			vsinger_luka_test_1 = {
+			vsinger_luotianyi_birthDay_10 = {
 				index = 2
-				anime_male = { 1 = vsinger_luka_test_1 }
+				anime_male = { 1 = vsinger_luotianyi_birthDay_10 }
 				anime_female = anime_male
 				anime_boy = anime_male
 				anime_girl = anime_male
 			}
-			vsinger_luka_test_2 = {
+			vsinger_luotianyi_birthDay_1 = {
 				index = 3
-				anime_male = { 1 = vsinger_luka_test_2 }
+				anime_male = { 1 = vsinger_luotianyi_birthDay_1 }
 				anime_female = anime_male
 				anime_boy = anime_male
 				anime_girl = anime_male
 			}
-			vsinger_luka_test_3 = {
+			vsinger_luotianyi_birthDay_2 = {
 				index = 4
-				anime_male = { 1 = vsinger_luka_test_3 }
+				anime_male = { 1 = vsinger_luotianyi_birthDay_2 }
 				anime_female = anime_male
 				anime_boy = anime_male
 				anime_girl = anime_male
 			}
-			vsinger_miku_test_0 = {
+			vsinger_luotianyi_birthDay_3 = {
 				index = 5
-				anime_male = { 1 = vsinger_miku_test_0 }
+				anime_male = { 1 = vsinger_luotianyi_birthDay_3 }
 				anime_female = anime_male
 				anime_boy = anime_male
 				anime_girl = anime_male
 			}
-			vsinger_miku_test_1 = {
+			vsinger_luotianyi_birthDay_4 = {
 				index = 6
-				anime_male = { 1 = vsinger_miku_test_1 }
+				anime_male = { 1 = vsinger_luotianyi_birthDay_4 }
 				anime_female = anime_male
 				anime_boy = anime_male
 				anime_girl = anime_male
 			}
-			vsinger_miku_test_2 = {
+			vsinger_luotianyi_birthDay_5 = {
 				index = 7
-				anime_male = { 1 = vsinger_miku_test_2 }
+				anime_male = { 1 = vsinger_luotianyi_birthDay_5 }
 				anime_female = anime_male
 				anime_boy = anime_male
 				anime_girl = anime_male
 			}
-			vsinger_miku_test_3 = {
+			vsinger_luotianyi_birthDay_6 = {
 				index = 8
-				anime_male = { 1 = vsinger_miku_test_3 }
+				anime_male = { 1 = vsinger_luotianyi_birthDay_6 }
+				anime_female = anime_male
+				anime_boy = anime_male
+				anime_girl = anime_male
+			}
+			vsinger_luotianyi_birthDay_7 = {
+				index = 9
+				anime_male = { 1 = vsinger_luotianyi_birthDay_7 }
+				anime_female = anime_male
+				anime_boy = anime_male
+				anime_girl = anime_male
+			}
+			vsinger_luotianyi_birthDay_8 = {
+				index = 10
+				anime_male = { 1 = vsinger_luotianyi_birthDay_8 }
+				anime_female = anime_male
+				anime_boy = anime_male
+				anime_girl = anime_male
+			}
+			vsinger_luotianyi_birthDay_9 = {
+				index = 11
+				anime_male = { 1 = vsinger_luotianyi_birthDay_9 }
+				anime_female = anime_male
+				anime_boy = anime_male
+				anime_girl = anime_male
+			}
+			vsinger_luotianyi_fairyTale_0 = {
+				index = 12
+				anime_male = { 1 = vsinger_luotianyi_fairyTale_0 }
+				anime_female = anime_male
+				anime_boy = anime_male
+				anime_girl = anime_male
+			}
+			vsinger_luotianyi_fairyTale_1 = {
+				index = 13
+				anime_male = { 1 = vsinger_luotianyi_fairyTale_1 }
+				anime_female = anime_male
+				anime_boy = anime_male
+				anime_girl = anime_male
+			}
+			vsinger_luotianyi_fairyTale_2 = {
+				index = 14
+				anime_male = { 1 = vsinger_luotianyi_fairyTale_2 }
+				anime_female = anime_male
+				anime_boy = anime_male
+				anime_girl = anime_male
+			}
+			vsinger_luotianyi_fairyTale_3 = {
+				index = 15
+				anime_male = { 1 = vsinger_luotianyi_fairyTale_3 }
+				anime_female = anime_male
+				anime_boy = anime_male
+				anime_girl = anime_male
+			}
+			vsinger_luotianyi_liuguang_0 = {
+				index = 16
+				anime_male = { 1 = vsinger_luotianyi_liuguang_0 }
+				anime_female = anime_male
+				anime_boy = anime_male
+				anime_girl = anime_male
+			}
+			vsinger_luotianyi_liuguang_1 = {
+				index = 17
+				anime_male = { 1 = vsinger_luotianyi_liuguang_1 }
+				anime_female = anime_male
+				anime_boy = anime_male
+				anime_girl = anime_male
+			}
+			vsinger_luotianyi_liuguang_2 = {
+				index = 18
+				anime_male = { 1 = vsinger_luotianyi_liuguang_2 }
+				anime_female = anime_male
+				anime_boy = anime_male
+				anime_girl = anime_male
+			}
+			vsinger_luotianyi_liuguang_3 = {
+				index = 19
+				anime_male = { 1 = vsinger_luotianyi_liuguang_3 }
+				anime_female = anime_male
+				anime_boy = anime_male
+				anime_girl = anime_male
+			}
+			vsinger_luotianyi_liuguang_4 = {
+				index = 20
+				anime_male = { 1 = vsinger_luotianyi_liuguang_4 }
+				anime_female = anime_male
+				anime_boy = anime_male
+				anime_girl = anime_male
+			}
+			vsinger_luotianyi_liuguang_5 = {
+				index = 21
+				anime_male = { 1 = vsinger_luotianyi_liuguang_5 }
+				anime_female = anime_male
+				anime_boy = anime_male
+				anime_girl = anime_male
+			}
+			vsinger_luotianyi_liuguang_6 = {
+				index = 22
+				anime_male = { 1 = vsinger_luotianyi_liuguang_6 }
+				anime_female = anime_male
+				anime_boy = anime_male
+				anime_girl = anime_male
+			}
+			vsinger_luotianyi_liuguang_7 = {
+				index = 23
+				anime_male = { 1 = vsinger_luotianyi_liuguang_7 }
+				anime_female = anime_male
+				anime_boy = anime_male
+				anime_girl = anime_male
+			}
+			vsinger_luotianyi_liuguang_8 = {
+				index = 24
+				anime_male = { 1 = vsinger_luotianyi_liuguang_8 }
+				anime_female = anime_male
+				anime_boy = anime_male
+				anime_girl = anime_male
+			}
+			vsinger_luotianyi_official_0 = {
+				index = 25
+				anime_male = { 1 = vsinger_luotianyi_official_0 }
+				anime_female = anime_male
+				anime_boy = anime_male
+				anime_girl = anime_male
+			}
+			vsinger_luotianyi_official_1 = {
+				index = 26
+				anime_male = { 1 = vsinger_luotianyi_official_1 }
+				anime_female = anime_male
+				anime_boy = anime_male
+				anime_girl = anime_male
+			}
+			vsinger_luotianyi_official_2 = {
+				index = 27
+				anime_male = { 1 = vsinger_luotianyi_official_2 }
+				anime_female = anime_male
+				anime_boy = anime_male
+				anime_girl = anime_male
+			}
+			vsinger_luotianyi_official_3 = {
+				index = 28
+				anime_male = { 1 = vsinger_luotianyi_official_3 }
+				anime_female = anime_male
+				anime_boy = anime_male
+				anime_girl = anime_male
+			}
+			vsinger_luotianyi_official_4 = {
+				index = 29
+				anime_male = { 1 = vsinger_luotianyi_official_4 }
+				anime_female = anime_male
+				anime_boy = anime_male
+				anime_girl = anime_male
+			}
+			vsinger_luotianyi_official_5 = {
+				index = 30
+				anime_male = { 1 = vsinger_luotianyi_official_5 }
+				anime_female = anime_male
+				anime_boy = anime_male
+				anime_girl = anime_male
+			}
+			vsinger_luotianyi_official_6 = {
+				index = 31
+				anime_male = { 1 = vsinger_luotianyi_official_6 }
+				anime_female = anime_male
+				anime_boy = anime_male
+				anime_girl = anime_male
+			}
+			vsinger_luotianyi_official_7 = {
+				index = 32
+				anime_male = { 1 = vsinger_luotianyi_official_7 }
+				anime_female = anime_male
+				anime_boy = anime_male
+				anime_girl = anime_male
+			}
+			vsinger_luotianyi_tianming_0 = {
+				index = 33
+				anime_male = { 1 = vsinger_luotianyi_tianming_0 }
+				anime_female = anime_male
+				anime_boy = anime_male
+				anime_girl = anime_male
+			}
+			vsinger_luotianyi_tianming_1 = {
+				index = 34
+				anime_male = { 1 = vsinger_luotianyi_tianming_1 }
+				anime_female = anime_male
+				anime_boy = anime_male
+				anime_girl = anime_male
+			}
+			vsinger_luotianyi_tianming_2 = {
+				index = 35
+				anime_male = { 1 = vsinger_luotianyi_tianming_2 }
+				anime_female = anime_male
+				anime_boy = anime_male
+				anime_girl = anime_male
+			}
+			vsinger_luotianyi_tianming_3 = {
+				index = 36
+				anime_male = { 1 = vsinger_luotianyi_tianming_3 }
+				anime_female = anime_male
+				anime_boy = anime_male
+				anime_girl = anime_male
+			}
+			vsinger_yuezhengling_birthDay_0 = {
+				index = 37
+				anime_male = { 1 = vsinger_yuezhengling_birthDay_0 }
+				anime_female = anime_male
+				anime_boy = anime_male
+				anime_girl = anime_male
+			}
+			vsinger_yuezhengling_birthDay_10 = {
+				index = 38
+				anime_male = { 1 = vsinger_yuezhengling_birthDay_10 }
+				anime_female = anime_male
+				anime_boy = anime_male
+				anime_girl = anime_male
+			}
+			vsinger_yuezhengling_birthDay_1 = {
+				index = 39
+				anime_male = { 1 = vsinger_yuezhengling_birthDay_1 }
+				anime_female = anime_male
+				anime_boy = anime_male
+				anime_girl = anime_male
+			}
+			vsinger_yuezhengling_birthDay_2 = {
+				index = 40
+				anime_male = { 1 = vsinger_yuezhengling_birthDay_2 }
+				anime_female = anime_male
+				anime_boy = anime_male
+				anime_girl = anime_male
+			}
+			vsinger_yuezhengling_birthDay_3 = {
+				index = 41
+				anime_male = { 1 = vsinger_yuezhengling_birthDay_3 }
+				anime_female = anime_male
+				anime_boy = anime_male
+				anime_girl = anime_male
+			}
+			vsinger_yuezhengling_birthDay_4 = {
+				index = 42
+				anime_male = { 1 = vsinger_yuezhengling_birthDay_4 }
+				anime_female = anime_male
+				anime_boy = anime_male
+				anime_girl = anime_male
+			}
+			vsinger_yuezhengling_birthDay_5 = {
+				index = 43
+				anime_male = { 1 = vsinger_yuezhengling_birthDay_5 }
+				anime_female = anime_male
+				anime_boy = anime_male
+				anime_girl = anime_male
+			}
+			vsinger_yuezhengling_birthDay_6 = {
+				index = 44
+				anime_male = { 1 = vsinger_yuezhengling_birthDay_6 }
+				anime_female = anime_male
+				anime_boy = anime_male
+				anime_girl = anime_male
+			}
+			vsinger_yuezhengling_birthDay_7 = {
+				index = 45
+				anime_male = { 1 = vsinger_yuezhengling_birthDay_7 }
+				anime_female = anime_male
+				anime_boy = anime_male
+				anime_girl = anime_male
+			}
+			vsinger_yuezhengling_birthDay_8 = {
+				index = 46
+				anime_male = { 1 = vsinger_yuezhengling_birthDay_8 }
+				anime_female = anime_male
+				anime_boy = anime_male
+				anime_girl = anime_male
+			}
+			vsinger_yuezhengling_birthDay_9 = {
+				index = 47
+				anime_male = { 1 = vsinger_yuezhengling_birthDay_9 }
+				anime_female = anime_male
+				anime_boy = anime_male
+				anime_girl = anime_male
+			}
+			vsinger_yuezhengling_official_0 = {
+				index = 48
+				anime_male = { 1 = vsinger_yuezhengling_official_0 }
+				anime_female = anime_male
+				anime_boy = anime_male
+				anime_girl = anime_male
+			}
+			vsinger_yuezhengling_official_1 = {
+				index = 49
+				anime_male = { 1 = vsinger_yuezhengling_official_1 }
+				anime_female = anime_male
+				anime_boy = anime_male
+				anime_girl = anime_male
+			}
+			vsinger_yuezhengling_official_2 = {
+				index = 50
+				anime_male = { 1 = vsinger_yuezhengling_official_2 }
+				anime_female = anime_male
+				anime_boy = anime_male
+				anime_girl = anime_male
+			}
+			vsinger_yuezhengling_official_3 = {
+				index = 51
+				anime_male = { 1 = vsinger_yuezhengling_official_3 }
+				anime_female = anime_male
+				anime_boy = anime_male
+				anime_girl = anime_male
+			}
+			vsinger_yuezhengling_official_4 = {
+				index = 52
+				anime_male = { 1 = vsinger_yuezhengling_official_4 }
+				anime_female = anime_male
+				anime_boy = anime_male
+				anime_girl = anime_male
+			}
+			vsinger_yuezhengling_official_5 = {
+				index = 53
+				anime_male = { 1 = vsinger_yuezhengling_official_5 }
+				anime_female = anime_male
+				anime_boy = anime_male
+				anime_girl = anime_male
+			}
+			vsinger_yuezhengling_official_6 = {
+				index = 54
+				anime_male = { 1 = vsinger_yuezhengling_official_6 }
 				anime_female = anime_male
 				anime_boy = anime_male
 				anime_girl = anime_male

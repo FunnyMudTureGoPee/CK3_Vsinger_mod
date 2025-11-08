@@ -1,7 +1,7 @@
 ﻿l_simp_chinese:
- trait_vsinger_luka_test:0 "test"
- trait_vsinger_luka_test_desc:0 "This character is test."
- trait_vsinger_luka_test_character_desc:0 "test"
- trait_vsinger_miku_test:0 "test"
- trait_vsinger_miku_test_desc:0 "This character is test."
- trait_vsinger_miku_test_character_desc:0 "test"
+ trait_vsinger_luotianyi_birthDay:0 "birthDay"
+ trait_vsinger_luotianyi_birthDay_desc:0 "This character is birthDay."
+ trait_vsinger_luotianyi_birthDay_character_desc:0 "birthDay"
+ trait_vsinger_luotianyi_official:0 "official"
+ trait_vsinger_luotianyi_official_desc:0 "This character is official."
+ trait_vsinger_luotianyi_official_character_desc:0 "official"

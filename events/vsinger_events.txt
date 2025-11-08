@@ -1,59 +1,38 @@
 namespace = vsinger_event
-
 # 基础遇见事件
 vsinger_event.001 = {
-    type = character_event
-    title = vsinger_event.001.t
-    desc = vsinger_event.001.desc
-    theme = special_event
-    
-    trigger = {
-        is_ai = no  # 只对玩家触发
-        NOT = {
-            any_courtier_or_guest = {
-                OR = {
-                    has_trait = vsinger_miku
-                    has_trait = vsinger_luka
-                }
-            }
-        }
-    }
-
-    immediate = {
-        save_scope_as = miku_summoner
-    }
-
-    # 选项A：初音
-    option = {
-        name = vsinger_event.001.a
-        trigger = { always = yes }
-        custom_tooltip = vsinger_miku_summon_tt
-        
-        if = {
-            limit = {
-                exists = this
-            }
-            vsinger_spawn_miku = yes
-        }
-    }
-
-    # 选项B：巡音
-    option = {
-        name = vsinger_event.001.b
-        trigger = { always = yes }
-        custom_tooltip = vsinger_luka_summon_tt
-        
-        if = {
-            limit = {
-                exists = this
-            }
-            vsinger_spawn_luka = yes
-        }
-    }
-
-    # 选项C：取消
-    option = {
-        name = vsinger_event.001.c
-        trigger = { always = yes }
-    }
+	type = character_event
+	title = vsinger_event.001.t
+	desc = vsinger_event.001.desc
+	theme = special_event
+	trigger = {
+		is_ai = no		# 只对玩家触发
+	}
+	immediate = {
+		save_scope_as = luotianyi_summoner
+	}
+	# 选项A：召唤洛天依
+	option = {
+		name = vsinger_event.001.a
+		trigger = {
+			always = yes
+		}
+		custom_tooltip = vsinger_luotianyi_summon_tt
+		vsinger_spawn_luotianyi = yes
+	}
+	option = {
+		name = vsinger_event.001.b
+		trigger = {
+			always = yes
+		}
+		custom_tooltip = vsinger_yuezhengling_summon_tt
+		vsinger_spawn_yuezhengling = yes
+	}
+	# 选项B：取消
+	option = {
+		name = vsinger_event.001.c
+		trigger = {
+			always = yes
+		}
+	}
 }

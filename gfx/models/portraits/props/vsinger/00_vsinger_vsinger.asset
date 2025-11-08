@@ -1,136 +1,918 @@
 ﻿pdxmesh = {
-	name = "vsinger_luka_test_0_mesh"
+	name = "vsinger_luotianyi_birthDay_0_mesh"
 	file = "hm_prophet.mesh"
 	scale = 1.6
 	meshsettings = {
 		name = "prophet_shieldShape"
 		index = 0
-		texture_diffuse = "vsinger_luka_test_0_diffuse.dds"
-		texture_specular = "vsinger_luka_test_0_diffuse.dds"
+		texture_diffuse = "vsinger_luotianyi_birthDay_0_diffuse.dds"
+		texture_specular = "vsinger_luotianyi_birthDay_0_diffuse.dds"
 		shader = "portrait_attachment_alpha_to_coverage"
 		shader_file = "gfx/hmportrait.shader"
 	}
 }
 entity = {
-	name = "vsinger_luka_test_0_entity"
-	pdxmesh = "vsinger_luka_test_0_mesh"
+	name = "vsinger_luotianyi_birthDay_0_entity"
+	pdxmesh = "vsinger_luotianyi_birthDay_0_mesh"
 }
 pdxmesh = {
-	name = "vsinger_luka_test_1_mesh"
+	name = "vsinger_luotianyi_birthDay_10_mesh"
 	file = "hm_prophet.mesh"
 	scale = 1.6
 	meshsettings = {
 		name = "prophet_shieldShape"
 		index = 0
-		texture_diffuse = "vsinger_luka_test_1_diffuse.dds"
-		texture_specular = "vsinger_luka_test_1_diffuse.dds"
+		texture_diffuse = "vsinger_luotianyi_birthDay_10_diffuse.dds"
+		texture_specular = "vsinger_luotianyi_birthDay_10_diffuse.dds"
 		shader = "portrait_attachment_alpha_to_coverage"
 		shader_file = "gfx/hmportrait.shader"
 	}
 }
 entity = {
-	name = "vsinger_luka_test_1_entity"
-	pdxmesh = "vsinger_luka_test_1_mesh"
+	name = "vsinger_luotianyi_birthDay_10_entity"
+	pdxmesh = "vsinger_luotianyi_birthDay_10_mesh"
 }
 pdxmesh = {
-	name = "vsinger_luka_test_2_mesh"
+	name = "vsinger_luotianyi_birthDay_1_mesh"
 	file = "hm_prophet.mesh"
 	scale = 1.6
 	meshsettings = {
 		name = "prophet_shieldShape"
 		index = 0
-		texture_diffuse = "vsinger_luka_test_2_diffuse.dds"
-		texture_specular = "vsinger_luka_test_2_diffuse.dds"
+		texture_diffuse = "vsinger_luotianyi_birthDay_1_diffuse.dds"
+		texture_specular = "vsinger_luotianyi_birthDay_1_diffuse.dds"
 		shader = "portrait_attachment_alpha_to_coverage"
 		shader_file = "gfx/hmportrait.shader"
 	}
 }
 entity = {
-	name = "vsinger_luka_test_2_entity"
-	pdxmesh = "vsinger_luka_test_2_mesh"
+	name = "vsinger_luotianyi_birthDay_1_entity"
+	pdxmesh = "vsinger_luotianyi_birthDay_1_mesh"
 }
 pdxmesh = {
-	name = "vsinger_luka_test_3_mesh"
+	name = "vsinger_luotianyi_birthDay_2_mesh"
 	file = "hm_prophet.mesh"
 	scale = 1.6
 	meshsettings = {
 		name = "prophet_shieldShape"
 		index = 0
-		texture_diffuse = "vsinger_luka_test_3_diffuse.dds"
-		texture_specular = "vsinger_luka_test_3_diffuse.dds"
+		texture_diffuse = "vsinger_luotianyi_birthDay_2_diffuse.dds"
+		texture_specular = "vsinger_luotianyi_birthDay_2_diffuse.dds"
 		shader = "portrait_attachment_alpha_to_coverage"
 		shader_file = "gfx/hmportrait.shader"
 	}
 }
 entity = {
-	name = "vsinger_luka_test_3_entity"
-	pdxmesh = "vsinger_luka_test_3_mesh"
+	name = "vsinger_luotianyi_birthDay_2_entity"
+	pdxmesh = "vsinger_luotianyi_birthDay_2_mesh"
 }
 pdxmesh = {
-	name = "vsinger_miku_test_0_mesh"
+	name = "vsinger_luotianyi_birthDay_3_mesh"
 	file = "hm_prophet.mesh"
 	scale = 1.6
 	meshsettings = {
 		name = "prophet_shieldShape"
 		index = 0
-		texture_diffuse = "vsinger_miku_test_0_diffuse.dds"
-		texture_specular = "vsinger_miku_test_0_diffuse.dds"
+		texture_diffuse = "vsinger_luotianyi_birthDay_3_diffuse.dds"
+		texture_specular = "vsinger_luotianyi_birthDay_3_diffuse.dds"
 		shader = "portrait_attachment_alpha_to_coverage"
 		shader_file = "gfx/hmportrait.shader"
 	}
 }
 entity = {
-	name = "vsinger_miku_test_0_entity"
-	pdxmesh = "vsinger_miku_test_0_mesh"
+	name = "vsinger_luotianyi_birthDay_3_entity"
+	pdxmesh = "vsinger_luotianyi_birthDay_3_mesh"
 }
 pdxmesh = {
-	name = "vsinger_miku_test_1_mesh"
+	name = "vsinger_luotianyi_birthDay_4_mesh"
 	file = "hm_prophet.mesh"
 	scale = 1.6
 	meshsettings = {
 		name = "prophet_shieldShape"
 		index = 0
-		texture_diffuse = "vsinger_miku_test_1_diffuse.dds"
-		texture_specular = "vsinger_miku_test_1_diffuse.dds"
+		texture_diffuse = "vsinger_luotianyi_birthDay_4_diffuse.dds"
+		texture_specular = "vsinger_luotianyi_birthDay_4_diffuse.dds"
 		shader = "portrait_attachment_alpha_to_coverage"
 		shader_file = "gfx/hmportrait.shader"
 	}
 }
 entity = {
-	name = "vsinger_miku_test_1_entity"
-	pdxmesh = "vsinger_miku_test_1_mesh"
+	name = "vsinger_luotianyi_birthDay_4_entity"
+	pdxmesh = "vsinger_luotianyi_birthDay_4_mesh"
 }
 pdxmesh = {
-	name = "vsinger_miku_test_2_mesh"
+	name = "vsinger_luotianyi_birthDay_5_mesh"
 	file = "hm_prophet.mesh"
 	scale = 1.6
 	meshsettings = {
 		name = "prophet_shieldShape"
 		index = 0
-		texture_diffuse = "vsinger_miku_test_2_diffuse.dds"
-		texture_specular = "vsinger_miku_test_2_diffuse.dds"
+		texture_diffuse = "vsinger_luotianyi_birthDay_5_diffuse.dds"
+		texture_specular = "vsinger_luotianyi_birthDay_5_diffuse.dds"
 		shader = "portrait_attachment_alpha_to_coverage"
 		shader_file = "gfx/hmportrait.shader"
 	}
 }
 entity = {
-	name = "vsinger_miku_test_2_entity"
-	pdxmesh = "vsinger_miku_test_2_mesh"
+	name = "vsinger_luotianyi_birthDay_5_entity"
+	pdxmesh = "vsinger_luotianyi_birthDay_5_mesh"
 }
 pdxmesh = {
-	name = "vsinger_miku_test_3_mesh"
+	name = "vsinger_luotianyi_birthDay_6_mesh"
 	file = "hm_prophet.mesh"
 	scale = 1.6
 	meshsettings = {
 		name = "prophet_shieldShape"
 		index = 0
-		texture_diffuse = "vsinger_miku_test_3_diffuse.dds"
-		texture_specular = "vsinger_miku_test_3_diffuse.dds"
+		texture_diffuse = "vsinger_luotianyi_birthDay_6_diffuse.dds"
+		texture_specular = "vsinger_luotianyi_birthDay_6_diffuse.dds"
 		shader = "portrait_attachment_alpha_to_coverage"
 		shader_file = "gfx/hmportrait.shader"
 	}
 }
 entity = {
-	name = "vsinger_miku_test_3_entity"
-	pdxmesh = "vsinger_miku_test_3_mesh"
+	name = "vsinger_luotianyi_birthDay_6_entity"
+	pdxmesh = "vsinger_luotianyi_birthDay_6_mesh"
+}
+pdxmesh = {
+	name = "vsinger_luotianyi_birthDay_7_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.6
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "vsinger_luotianyi_birthDay_7_diffuse.dds"
+		texture_specular = "vsinger_luotianyi_birthDay_7_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "vsinger_luotianyi_birthDay_7_entity"
+	pdxmesh = "vsinger_luotianyi_birthDay_7_mesh"
+}
+pdxmesh = {
+	name = "vsinger_luotianyi_birthDay_8_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.6
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "vsinger_luotianyi_birthDay_8_diffuse.dds"
+		texture_specular = "vsinger_luotianyi_birthDay_8_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "vsinger_luotianyi_birthDay_8_entity"
+	pdxmesh = "vsinger_luotianyi_birthDay_8_mesh"
+}
+pdxmesh = {
+	name = "vsinger_luotianyi_birthDay_9_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.6
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "vsinger_luotianyi_birthDay_9_diffuse.dds"
+		texture_specular = "vsinger_luotianyi_birthDay_9_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "vsinger_luotianyi_birthDay_9_entity"
+	pdxmesh = "vsinger_luotianyi_birthDay_9_mesh"
+}
+pdxmesh = {
+	name = "vsinger_luotianyi_fairyTale_0_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.6
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "vsinger_luotianyi_fairyTale_0_diffuse.dds"
+		texture_specular = "vsinger_luotianyi_fairyTale_0_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "vsinger_luotianyi_fairyTale_0_entity"
+	pdxmesh = "vsinger_luotianyi_fairyTale_0_mesh"
+}
+pdxmesh = {
+	name = "vsinger_luotianyi_fairyTale_1_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.6
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "vsinger_luotianyi_fairyTale_1_diffuse.dds"
+		texture_specular = "vsinger_luotianyi_fairyTale_1_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "vsinger_luotianyi_fairyTale_1_entity"
+	pdxmesh = "vsinger_luotianyi_fairyTale_1_mesh"
+}
+pdxmesh = {
+	name = "vsinger_luotianyi_fairyTale_2_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.6
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "vsinger_luotianyi_fairyTale_2_diffuse.dds"
+		texture_specular = "vsinger_luotianyi_fairyTale_2_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "vsinger_luotianyi_fairyTale_2_entity"
+	pdxmesh = "vsinger_luotianyi_fairyTale_2_mesh"
+}
+pdxmesh = {
+	name = "vsinger_luotianyi_fairyTale_3_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.6
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "vsinger_luotianyi_fairyTale_3_diffuse.dds"
+		texture_specular = "vsinger_luotianyi_fairyTale_3_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "vsinger_luotianyi_fairyTale_3_entity"
+	pdxmesh = "vsinger_luotianyi_fairyTale_3_mesh"
+}
+pdxmesh = {
+	name = "vsinger_luotianyi_liuguang_0_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.6
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "vsinger_luotianyi_liuguang_0_diffuse.dds"
+		texture_specular = "vsinger_luotianyi_liuguang_0_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "vsinger_luotianyi_liuguang_0_entity"
+	pdxmesh = "vsinger_luotianyi_liuguang_0_mesh"
+}
+pdxmesh = {
+	name = "vsinger_luotianyi_liuguang_1_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.6
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "vsinger_luotianyi_liuguang_1_diffuse.dds"
+		texture_specular = "vsinger_luotianyi_liuguang_1_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "vsinger_luotianyi_liuguang_1_entity"
+	pdxmesh = "vsinger_luotianyi_liuguang_1_mesh"
+}
+pdxmesh = {
+	name = "vsinger_luotianyi_liuguang_2_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.6
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "vsinger_luotianyi_liuguang_2_diffuse.dds"
+		texture_specular = "vsinger_luotianyi_liuguang_2_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "vsinger_luotianyi_liuguang_2_entity"
+	pdxmesh = "vsinger_luotianyi_liuguang_2_mesh"
+}
+pdxmesh = {
+	name = "vsinger_luotianyi_liuguang_3_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.6
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "vsinger_luotianyi_liuguang_3_diffuse.dds"
+		texture_specular = "vsinger_luotianyi_liuguang_3_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "vsinger_luotianyi_liuguang_3_entity"
+	pdxmesh = "vsinger_luotianyi_liuguang_3_mesh"
+}
+pdxmesh = {
+	name = "vsinger_luotianyi_liuguang_4_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.6
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "vsinger_luotianyi_liuguang_4_diffuse.dds"
+		texture_specular = "vsinger_luotianyi_liuguang_4_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "vsinger_luotianyi_liuguang_4_entity"
+	pdxmesh = "vsinger_luotianyi_liuguang_4_mesh"
+}
+pdxmesh = {
+	name = "vsinger_luotianyi_liuguang_5_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.6
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "vsinger_luotianyi_liuguang_5_diffuse.dds"
+		texture_specular = "vsinger_luotianyi_liuguang_5_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "vsinger_luotianyi_liuguang_5_entity"
+	pdxmesh = "vsinger_luotianyi_liuguang_5_mesh"
+}
+pdxmesh = {
+	name = "vsinger_luotianyi_liuguang_6_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.6
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "vsinger_luotianyi_liuguang_6_diffuse.dds"
+		texture_specular = "vsinger_luotianyi_liuguang_6_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "vsinger_luotianyi_liuguang_6_entity"
+	pdxmesh = "vsinger_luotianyi_liuguang_6_mesh"
+}
+pdxmesh = {
+	name = "vsinger_luotianyi_liuguang_7_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.6
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "vsinger_luotianyi_liuguang_7_diffuse.dds"
+		texture_specular = "vsinger_luotianyi_liuguang_7_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "vsinger_luotianyi_liuguang_7_entity"
+	pdxmesh = "vsinger_luotianyi_liuguang_7_mesh"
+}
+pdxmesh = {
+	name = "vsinger_luotianyi_liuguang_8_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.6
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "vsinger_luotianyi_liuguang_8_diffuse.dds"
+		texture_specular = "vsinger_luotianyi_liuguang_8_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "vsinger_luotianyi_liuguang_8_entity"
+	pdxmesh = "vsinger_luotianyi_liuguang_8_mesh"
+}
+pdxmesh = {
+	name = "vsinger_luotianyi_official_0_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.6
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "vsinger_luotianyi_official_0_diffuse.dds"
+		texture_specular = "vsinger_luotianyi_official_0_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "vsinger_luotianyi_official_0_entity"
+	pdxmesh = "vsinger_luotianyi_official_0_mesh"
+}
+pdxmesh = {
+	name = "vsinger_luotianyi_official_1_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.6
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "vsinger_luotianyi_official_1_diffuse.dds"
+		texture_specular = "vsinger_luotianyi_official_1_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "vsinger_luotianyi_official_1_entity"
+	pdxmesh = "vsinger_luotianyi_official_1_mesh"
+}
+pdxmesh = {
+	name = "vsinger_luotianyi_official_2_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.6
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "vsinger_luotianyi_official_2_diffuse.dds"
+		texture_specular = "vsinger_luotianyi_official_2_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "vsinger_luotianyi_official_2_entity"
+	pdxmesh = "vsinger_luotianyi_official_2_mesh"
+}
+pdxmesh = {
+	name = "vsinger_luotianyi_official_3_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.6
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "vsinger_luotianyi_official_3_diffuse.dds"
+		texture_specular = "vsinger_luotianyi_official_3_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "vsinger_luotianyi_official_3_entity"
+	pdxmesh = "vsinger_luotianyi_official_3_mesh"
+}
+pdxmesh = {
+	name = "vsinger_luotianyi_official_4_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.6
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "vsinger_luotianyi_official_4_diffuse.dds"
+		texture_specular = "vsinger_luotianyi_official_4_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "vsinger_luotianyi_official_4_entity"
+	pdxmesh = "vsinger_luotianyi_official_4_mesh"
+}
+pdxmesh = {
+	name = "vsinger_luotianyi_official_5_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.6
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "vsinger_luotianyi_official_5_diffuse.dds"
+		texture_specular = "vsinger_luotianyi_official_5_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "vsinger_luotianyi_official_5_entity"
+	pdxmesh = "vsinger_luotianyi_official_5_mesh"
+}
+pdxmesh = {
+	name = "vsinger_luotianyi_official_6_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.6
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "vsinger_luotianyi_official_6_diffuse.dds"
+		texture_specular = "vsinger_luotianyi_official_6_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "vsinger_luotianyi_official_6_entity"
+	pdxmesh = "vsinger_luotianyi_official_6_mesh"
+}
+pdxmesh = {
+	name = "vsinger_luotianyi_official_7_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.6
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "vsinger_luotianyi_official_7_diffuse.dds"
+		texture_specular = "vsinger_luotianyi_official_7_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "vsinger_luotianyi_official_7_entity"
+	pdxmesh = "vsinger_luotianyi_official_7_mesh"
+}
+pdxmesh = {
+	name = "vsinger_luotianyi_tianming_0_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.6
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "vsinger_luotianyi_tianming_0_diffuse.dds"
+		texture_specular = "vsinger_luotianyi_tianming_0_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "vsinger_luotianyi_tianming_0_entity"
+	pdxmesh = "vsinger_luotianyi_tianming_0_mesh"
+}
+pdxmesh = {
+	name = "vsinger_luotianyi_tianming_1_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.6
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "vsinger_luotianyi_tianming_1_diffuse.dds"
+		texture_specular = "vsinger_luotianyi_tianming_1_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "vsinger_luotianyi_tianming_1_entity"
+	pdxmesh = "vsinger_luotianyi_tianming_1_mesh"
+}
+pdxmesh = {
+	name = "vsinger_luotianyi_tianming_2_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.6
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "vsinger_luotianyi_tianming_2_diffuse.dds"
+		texture_specular = "vsinger_luotianyi_tianming_2_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "vsinger_luotianyi_tianming_2_entity"
+	pdxmesh = "vsinger_luotianyi_tianming_2_mesh"
+}
+pdxmesh = {
+	name = "vsinger_luotianyi_tianming_3_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.6
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "vsinger_luotianyi_tianming_3_diffuse.dds"
+		texture_specular = "vsinger_luotianyi_tianming_3_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "vsinger_luotianyi_tianming_3_entity"
+	pdxmesh = "vsinger_luotianyi_tianming_3_mesh"
+}
+pdxmesh = {
+	name = "vsinger_yuezhengling_birthDay_0_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.6
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "vsinger_yuezhengling_birthDay_0_diffuse.dds"
+		texture_specular = "vsinger_yuezhengling_birthDay_0_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "vsinger_yuezhengling_birthDay_0_entity"
+	pdxmesh = "vsinger_yuezhengling_birthDay_0_mesh"
+}
+pdxmesh = {
+	name = "vsinger_yuezhengling_birthDay_10_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.6
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "vsinger_yuezhengling_birthDay_10_diffuse.dds"
+		texture_specular = "vsinger_yuezhengling_birthDay_10_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "vsinger_yuezhengling_birthDay_10_entity"
+	pdxmesh = "vsinger_yuezhengling_birthDay_10_mesh"
+}
+pdxmesh = {
+	name = "vsinger_yuezhengling_birthDay_1_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.6
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "vsinger_yuezhengling_birthDay_1_diffuse.dds"
+		texture_specular = "vsinger_yuezhengling_birthDay_1_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "vsinger_yuezhengling_birthDay_1_entity"
+	pdxmesh = "vsinger_yuezhengling_birthDay_1_mesh"
+}
+pdxmesh = {
+	name = "vsinger_yuezhengling_birthDay_2_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.6
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "vsinger_yuezhengling_birthDay_2_diffuse.dds"
+		texture_specular = "vsinger_yuezhengling_birthDay_2_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "vsinger_yuezhengling_birthDay_2_entity"
+	pdxmesh = "vsinger_yuezhengling_birthDay_2_mesh"
+}
+pdxmesh = {
+	name = "vsinger_yuezhengling_birthDay_3_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.6
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "vsinger_yuezhengling_birthDay_3_diffuse.dds"
+		texture_specular = "vsinger_yuezhengling_birthDay_3_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "vsinger_yuezhengling_birthDay_3_entity"
+	pdxmesh = "vsinger_yuezhengling_birthDay_3_mesh"
+}
+pdxmesh = {
+	name = "vsinger_yuezhengling_birthDay_4_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.6
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "vsinger_yuezhengling_birthDay_4_diffuse.dds"
+		texture_specular = "vsinger_yuezhengling_birthDay_4_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "vsinger_yuezhengling_birthDay_4_entity"
+	pdxmesh = "vsinger_yuezhengling_birthDay_4_mesh"
+}
+pdxmesh = {
+	name = "vsinger_yuezhengling_birthDay_5_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.6
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "vsinger_yuezhengling_birthDay_5_diffuse.dds"
+		texture_specular = "vsinger_yuezhengling_birthDay_5_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "vsinger_yuezhengling_birthDay_5_entity"
+	pdxmesh = "vsinger_yuezhengling_birthDay_5_mesh"
+}
+pdxmesh = {
+	name = "vsinger_yuezhengling_birthDay_6_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.6
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "vsinger_yuezhengling_birthDay_6_diffuse.dds"
+		texture_specular = "vsinger_yuezhengling_birthDay_6_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "vsinger_yuezhengling_birthDay_6_entity"
+	pdxmesh = "vsinger_yuezhengling_birthDay_6_mesh"
+}
+pdxmesh = {
+	name = "vsinger_yuezhengling_birthDay_7_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.6
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "vsinger_yuezhengling_birthDay_7_diffuse.dds"
+		texture_specular = "vsinger_yuezhengling_birthDay_7_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "vsinger_yuezhengling_birthDay_7_entity"
+	pdxmesh = "vsinger_yuezhengling_birthDay_7_mesh"
+}
+pdxmesh = {
+	name = "vsinger_yuezhengling_birthDay_8_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.6
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "vsinger_yuezhengling_birthDay_8_diffuse.dds"
+		texture_specular = "vsinger_yuezhengling_birthDay_8_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "vsinger_yuezhengling_birthDay_8_entity"
+	pdxmesh = "vsinger_yuezhengling_birthDay_8_mesh"
+}
+pdxmesh = {
+	name = "vsinger_yuezhengling_birthDay_9_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.6
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "vsinger_yuezhengling_birthDay_9_diffuse.dds"
+		texture_specular = "vsinger_yuezhengling_birthDay_9_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "vsinger_yuezhengling_birthDay_9_entity"
+	pdxmesh = "vsinger_yuezhengling_birthDay_9_mesh"
+}
+pdxmesh = {
+	name = "vsinger_yuezhengling_official_0_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.6
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "vsinger_yuezhengling_official_0_diffuse.dds"
+		texture_specular = "vsinger_yuezhengling_official_0_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "vsinger_yuezhengling_official_0_entity"
+	pdxmesh = "vsinger_yuezhengling_official_0_mesh"
+}
+pdxmesh = {
+	name = "vsinger_yuezhengling_official_1_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.6
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "vsinger_yuezhengling_official_1_diffuse.dds"
+		texture_specular = "vsinger_yuezhengling_official_1_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "vsinger_yuezhengling_official_1_entity"
+	pdxmesh = "vsinger_yuezhengling_official_1_mesh"
+}
+pdxmesh = {
+	name = "vsinger_yuezhengling_official_2_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.6
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "vsinger_yuezhengling_official_2_diffuse.dds"
+		texture_specular = "vsinger_yuezhengling_official_2_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "vsinger_yuezhengling_official_2_entity"
+	pdxmesh = "vsinger_yuezhengling_official_2_mesh"
+}
+pdxmesh = {
+	name = "vsinger_yuezhengling_official_3_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.6
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "vsinger_yuezhengling_official_3_diffuse.dds"
+		texture_specular = "vsinger_yuezhengling_official_3_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "vsinger_yuezhengling_official_3_entity"
+	pdxmesh = "vsinger_yuezhengling_official_3_mesh"
+}
+pdxmesh = {
+	name = "vsinger_yuezhengling_official_4_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.6
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "vsinger_yuezhengling_official_4_diffuse.dds"
+		texture_specular = "vsinger_yuezhengling_official_4_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "vsinger_yuezhengling_official_4_entity"
+	pdxmesh = "vsinger_yuezhengling_official_4_mesh"
+}
+pdxmesh = {
+	name = "vsinger_yuezhengling_official_5_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.6
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "vsinger_yuezhengling_official_5_diffuse.dds"
+		texture_specular = "vsinger_yuezhengling_official_5_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "vsinger_yuezhengling_official_5_entity"
+	pdxmesh = "vsinger_yuezhengling_official_5_mesh"
+}
+pdxmesh = {
+	name = "vsinger_yuezhengling_official_6_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.6
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "vsinger_yuezhengling_official_6_diffuse.dds"
+		texture_specular = "vsinger_yuezhengling_official_6_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "vsinger_yuezhengling_official_6_entity"
+	pdxmesh = "vsinger_yuezhengling_official_6_mesh"
 }

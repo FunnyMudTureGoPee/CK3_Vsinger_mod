@@ -1,0 +1,11 @@
+# Vsinger Dynasties
+
+vsinger_test_dynasty = {
+    name = vsinger_test_dynasty_name
+    culture = japanese_culture
+}
+
+vsinger_luotianyi_dynasty = {
+    name = vsinger_luotianyi_dynasty_name
+    culture = chinese_culture
+}

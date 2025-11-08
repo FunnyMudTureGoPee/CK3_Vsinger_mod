@@ -1,35 +1,97 @@
-﻿vsinger_miku_template = {
-    age = 16
-    intrigue = { min_template_high_skill max_template_high_skill }
-    martial = { min_template_average_skill max_template_average_skill }
-    diplomacy = { min_template_high_skill max_template_high_skill }
-    stewardship = { min_template_high_skill max_template_high_skill }
-    learning = { min_template_average_skill max_template_average_skill }
-    prowess = { min_template_average_skill max_template_average_skill }
-    trait = vsinger_base
-    trait = vsinger_miku_test
-    trait = education_martial_2
-    trait = education_martial_prowess_3
-    trait = lifestyle_blademaster
-    trait = gregarious
-    trait = just
-    trait = arrogant
-    gender = female
-    random_traits = no
+﻿# Vsinger Character Templates
+vsinger_luotianyi_template = {
+	name = "vsinger_luotianyi_name"	# Localization key
+	age = 16
+	intrigue = {
+		min_template_high_skill
+		max_template_high_skill
+	}
+	martial = {
+		min_template_average_skill
+		max_template_average_skill
+	}
+	diplomacy = {
+		min_template_high_skill
+		max_template_high_skill
+	}
+	stewardship = {
+		min_template_high_skill
+		max_template_high_skill
+	}
+	learning = {
+		min_template_average_skill
+		max_template_average_skill
+	}
+	prowess = {
+		min_template_average_skill
+		max_template_average_skill
+	}
+	gender = female
+	random_traits = yes
+	after_creation = {
+		add_trait = vsinger_base
+		set_ethnicity = anime_ethnicity		# 确保使用二次元肖像
+		set_sexuality = homosexual
+		dynasty = {
+			set_dynasty_name = vsinger_luotianyi_dynasty_name
+		}
+		house = {
+			set_house_name_from_dynasty = prev.dynasty
+		}
+	}
+}
+
+vsinger_yuezhengling_template = {
+	name = "vsinger_yuezhengling_name"	# Localization key
+	age = 16
+	intrigue = {
+		min_template_high_skill
+		max_template_high_skill
+	}
+	martial = {
+		min_template_average_skill
+		max_template_average_skill
+	}
+	diplomacy = {
+		min_template_high_skill
+		max_template_high_skill
+	}
+	stewardship = {
+		min_template_high_skill
+		max_template_high_skill
+	}
+	learning = {
+		min_template_average_skill
+		max_template_average_skill
+	}
+	prowess = {
+		min_template_average_skill
+		max_template_average_skill
+	}
+	gender = female
+	random_traits = yes
+	after_creation = {
+		add_trait = vsinger_base
+		set_ethnicity = anime_ethnicity		# 确保使用二次元肖像
+		set_sexuality = homosexual
+		dynasty = {
+			set_dynasty_name = vsinger_yuezhengling_dynasty_name
+		}
+		house = {
+			set_house_name_from_dynasty = prev.dynasty
+		}
+	}
 }
 
 vsinger_luka_template = {
-    age = 16
-    intrigue = { min_template_high_skill max_template_high_skill }
-    martial = { min_template_high_skill max_template_high_skill }
-    diplomacy = { min_template_high_skill max_template_high_skill }
-    stewardship = { min_template_high_skill max_template_high_skill }
-    learning = { min_template_average_skill max_template_average_skill }
-    prowess = { min_template_high_skill max_template_high_skill }
-    trait = vsinger_base
-    trait = vsinger_luka_test
-    trait = education_martial_prowess_4
-    trait = arrogant
-    gender = female
-    random_traits = no
+	name = "vsinger_luka_test_name"	# Localization key
+	dynasty = vsinger_test_dynasty	# Shared dynasty for now
+	culture = japanese_culture
+	age = 18
+	gender = female
+	after_creation = {
+		add_trait = vsinger_base
+		set_ethnicity = anime_ethnicity		# Ensure anime portrait is used
+		set_sexuality_trait = bisexual
+	}
 }

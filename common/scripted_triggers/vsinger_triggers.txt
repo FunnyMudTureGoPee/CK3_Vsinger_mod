@@ -2,20 +2,30 @@
 
 has_any_vsinger_trait = {
 	OR = {
-		has_trait = vsinger_luka_test
-		has_trait = vsinger_miku_test
+		has_trait = vsinger_luotianyi_birthDay
+		has_trait = vsinger_luotianyi_fairyTale
+		has_trait = vsinger_luotianyi_liuguang
+		has_trait = vsinger_luotianyi_official
+		has_trait = vsinger_luotianyi_tianming
+		has_trait = vsinger_yuezhengling_birthDay
+		has_trait = vsinger_yuezhengling_official
 	}
 }
 
-has_luka_lineage_trait = {
+has_luotianyi_lineage_trait = {
 	OR = {
-		has_trait = vsinger_luka_test
+		has_trait = vsinger_luotianyi_birthDay
+		has_trait = vsinger_luotianyi_fairyTale
+		has_trait = vsinger_luotianyi_liuguang
+		has_trait = vsinger_luotianyi_official
+		has_trait = vsinger_luotianyi_tianming
 	}
 }
 
-has_miku_lineage_trait = {
+has_yuezhengling_lineage_trait = {
 	OR = {
-		has_trait = vsinger_miku_test
+		has_trait = vsinger_yuezhengling_birthDay
+		has_trait = vsinger_yuezhengling_official
 	}
 }
 
