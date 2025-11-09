@@ -37,7 +37,7 @@ vsinger_spawn_yuezhengling = {
 	}
 	scope:new_vsinger = {
 		# Call the inheritance helper to randomly assign a Luo Tianyi trait
-		vsinger_inherit_luotianyi_lineage_effect = yes
+		vsinger_inherit_yuezhengling_lineage_effect = yes
 		if = {
 			limit = {
 				var:portrait_index < 0

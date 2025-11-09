@@ -45,3 +45,31 @@ vsinger_inherit_yuezhengling_lineage_effect = {
 	}
 }
 
+vsinger_inherit_from_parents_effect = {
+	random_list = {
+		1 = {
+			weight = {
+				value = 0
+				if = { limit = { mother = { has_luotianyi_lineage_trait = yes } } add = 100 }
+				if = { limit = { real_father = { has_luotianyi_lineage_trait = yes } } add = 100 }
+			}
+			vsinger_inherit_luotianyi_lineage_effect = yes
+		}
+		1 = {
+			weight = {
+				value = 0
+				if = { limit = { mother = { has_yuezhengling_lineage_trait = yes } } add = 100 }
+				if = { limit = { real_father = { has_yuezhengling_lineage_trait = yes } } add = 100 }
+			}
+			vsinger_inherit_yuezhengling_lineage_effect = yes
+		}
+	}
+}
+
+vsinger_inherit_any_lineage_effect = {
+	random_list = {
+		1 = { vsinger_inherit_luotianyi_lineage_effect = yes }
+		1 = { vsinger_inherit_yuezhengling_lineage_effect = yes }
+	}
+}
+
