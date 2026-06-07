@@ -9,6 +9,11 @@ vsinger_inherit_luotianyi_lineage_effect = {
 		}
 		1 = {
 			add_trait = vsinger_base
+			add_trait = vsinger_luotianyi_dazaiqianyuan
+			set_ethnicity = anime_ethnicity
+		}
+		1 = {
+			add_trait = vsinger_base
 			add_trait = vsinger_luotianyi_fairyTale
 			set_ethnicity = anime_ethnicity
 		}
@@ -24,7 +29,17 @@ vsinger_inherit_luotianyi_lineage_effect = {
 		}
 		1 = {
 			add_trait = vsinger_base
+			add_trait = vsinger_luotianyi_siren
+			set_ethnicity = anime_ethnicity
+		}
+		1 = {
+			add_trait = vsinger_base
 			add_trait = vsinger_luotianyi_tianming
+			set_ethnicity = anime_ethnicity
+		}
+		1 = {
+			add_trait = vsinger_base
+			add_trait = vsinger_luotianyi_yalahula
 			set_ethnicity = anime_ethnicity
 		}
 	}
@@ -46,21 +61,35 @@ vsinger_inherit_yuezhengling_lineage_effect = {
 }
 
 vsinger_inherit_from_parents_effect = {
+	# --- First, calculate the weight for each lineage ---
+	set_variable = { name = luotianyi_weight value = 0 }
+	if = {
+		limit = { scope:mother ?= { has_luotianyi_lineage_trait = yes } }
+		change_variable = { name = luotianyi_weight add = 100 }
+	}
+	if = {
+		limit = { scope:real_father ?= { has_luotianyi_lineage_trait = yes } }
+		change_variable = { name = luotianyi_weight add = 100 }
+	}
+
+	set_variable = { name = yuezhengling_weight value = 0 }
+	if = {
+		limit = { scope:mother ?= { has_yuezhengling_lineage_trait = yes } }
+		change_variable = { name = yuezhengling_weight add = 100 }
+	}
+	if = {
+		limit = { scope:real_father ?= { has_yuezhengling_lineage_trait = yes } }
+		change_variable = { name = yuezhengling_weight add = 100 }
+	}
+
+	# --- Then, randomly select a lineage ---
 	random_list = {
 		1 = {
-			weight = {
-				value = 0
-				if = { limit = { mother = { has_luotianyi_lineage_trait = yes } } add = 100 }
-				if = { limit = { real_father = { has_luotianyi_lineage_trait = yes } } add = 100 }
-			}
+			weight = var:luotianyi_weight
 			vsinger_inherit_luotianyi_lineage_effect = yes
 		}
 		1 = {
-			weight = {
-				value = 0
-				if = { limit = { mother = { has_yuezhengling_lineage_trait = yes } } add = 100 }
-				if = { limit = { real_father = { has_yuezhengling_lineage_trait = yes } } add = 100 }
-			}
+			weight = var:yuezhengling_weight
 			vsinger_inherit_yuezhengling_lineage_effect = yes
 		}
 	}
@@ -73,3 +102,20 @@ vsinger_inherit_any_lineage_effect = {
 	}
 }
 
+# This effect creates a random human appearance for sons of two Vsinger parents.
+vsinger_fallback_to_random_human_effect = {
+	create_character = {
+		gender = male
+		age = 0
+		culture = root.culture
+		faith = root.faith
+		father = global_var:anime_dummy_male
+		mother = global_var:anime_dummy_female
+		save_scope_as = dummy_child
+	}
+	scope:dummy_child = {
+		copy_inheritable_appearance_to = root
+		death = natural
+	}
+	set_muggle_ethnicity = yes
+}

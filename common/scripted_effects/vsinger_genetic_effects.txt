@@ -7,82 +7,80 @@ vsinger_on_birth_set_portrait_effect = {
 		if = {
 			limit = {
 				OR = {
-					real_father = { has_any_vsinger_trait = yes }
-					mother = { has_any_vsinger_trait = yes }
+					scope:real_father ?= { has_any_vsinger_trait = yes }
+					scope:mother ?= { has_any_vsinger_trait = yes }
 				}
 			}
 
 			# N-Father + V-Mother
 			if = {
 				limit = {
-					NOT = { real_father = { has_any_vsinger_trait = yes } }
-					mother = { has_any_vsinger_trait = yes }
+					NOT = { scope:real_father ?= { has_any_vsinger_trait = yes } }
+					scope:mother ?= { has_any_vsinger_trait = yes }
 				}
 				if = {
 					limit = { is_female = yes }
-					random = {
-						chance = 80
-						if = {
-							limit = { mother = { has_luotianyi_lineage_trait = yes } }
-							vsinger_inherit_luotianyi_lineage_effect = yes
-						}
-						else_if = {
-							limit = { mother = { has_yuezhengling_lineage_trait = yes } }
-							vsinger_inherit_yuezhengling_lineage_effect = yes
+					random_list = {
+						100 = {
+							if = { 
+								limit = { scope:mother ?= { has_luotianyi_lineage_trait = yes } }
+								vsinger_inherit_luotianyi_lineage_effect = yes }
+							else_if = { 
+								limit = { scope:mother ?= { has_yuezhengling_lineage_trait = yes } }
+								vsinger_inherit_yuezhengling_lineage_effect = yes }
 						}
 					}
 				}
 				else = {
-					random = {
-						chance = 10
-						if = {
-							limit = { mother = { has_luotianyi_lineage_trait = yes } }
-							vsinger_inherit_luotianyi_lineage_effect = yes
+					random_list = {
+						25 = {
+							if = { 
+								limit = { scope:mother ?= { has_luotianyi_lineage_trait = yes } }
+								vsinger_inherit_luotianyi_lineage_effect = yes }
+							else_if = { 
+								limit = { scope:mother ?= { has_yuezhengling_lineage_trait = yes } }
+								vsinger_inherit_yuezhengling_lineage_effect = yes }
 						}
-						else_if = {
-							limit = { mother = { has_yuezhengling_lineage_trait = yes } }
-							vsinger_inherit_yuezhengling_lineage_effect = yes
-						}
+						75 = { anime_on_birth_set_portrait_fallback = yes }
 					}
 				}
 			}
 			# V-Father + V-Mother
 			else_if = {
 				limit = {
-					real_father = { has_any_vsinger_trait = yes }
-					mother = { has_any_vsinger_trait = yes }
+					scope:real_father ?= { has_any_vsinger_trait = yes }
+					scope:mother ?= { has_any_vsinger_trait = yes }
 				}
 				if = {
 					limit = { is_female = yes }
-					random = {
-						chance = 100
-						vsinger_inherit_from_parents_effect = yes
+					random_list = {
+						100 = { vsinger_inherit_from_parents_effect = yes }
 					}
 				}
 				else = {
-					random = {
-						chance = 20
-						vsinger_inherit_from_parents_effect = yes
+					random_list = {
+						50 = { vsinger_inherit_from_parents_effect = yes }
+						50 = { vsinger_fallback_to_random_human_effect = yes }
 					}
 				}
 			}
 			# V-Father + N-Mother
 			else_if = {
 				limit = {
-					real_father = { has_any_vsinger_trait = yes }
-					NOT = { mother = { has_any_vsinger_trait = yes } }
+					scope:real_father ?= { has_any_vsinger_trait = yes }
+					NOT = { scope:mother ?= { has_any_vsinger_trait = yes } }
 				}
 				if = {
 					limit = { is_female = yes }
-					random = {
-						chance = 30
-						vsinger_inherit_any_lineage_effect = yes
+					random_list = {
+						60 = { vsinger_inherit_any_lineage_effect = yes }
+						40 = { anime_on_birth_set_portrait_fallback = yes }
 					}
 				}
 				else = {
-					random = {
-						chance = 20
-						vsinger_inherit_any_lineage_effect = yes
+					random_list = {
+						40 = { vsinger_inherit_any_lineage_effect = yes }
+						60 = { anime_on_birth_set_portrait_fallback = yes }
 					}
 				}
 			}

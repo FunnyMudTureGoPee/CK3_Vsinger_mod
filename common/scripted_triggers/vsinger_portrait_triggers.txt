@@ -26,7 +26,7 @@ vsinger_portrait_num_6 = {
 }
 vsinger_portrait_num_5 = {
 	OR = {
-		always = no
+		has_trait = vsinger_luotianyi_yalahula
 	}
 }
 vsinger_portrait_num_4 = {
@@ -42,7 +42,8 @@ vsinger_portrait_num_3 = {
 }
 vsinger_portrait_num_2 = {
 	OR = {
-		always = no
+		has_trait = vsinger_luotianyi_dazaiqianyuan
+		has_trait = vsinger_luotianyi_siren
 	}
 }
 vsinger_portrait_num_1 = {
